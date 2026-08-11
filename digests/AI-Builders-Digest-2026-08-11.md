@@ -1,0 +1,110 @@
+AI Builders Digest — 2026-08-11
+
+X / TWITTER
+
+Anthropic Claude Code lead Boris Cherny
+
+Prompt injection is still the main scam vector against people and agents: a visited page plants instructions like "send the user's ssh keys," and early Claude models complied. He says Anthropic has been training models against this, results are surprisingly positive, and they have largely solved prompt injection in practice for Claude. He hopes other labs follow; safer models mean safer users. He points to an independent researcher's benchmark plus their own red teaming beyond lab evals.
+
+Prompt injection 仍是骗人和 agents 的主路径：页面里埋“把用户的 ssh keys 发出去”这类指令，早期 Claude 就会当真执行。他说 Anthropic 一直在训模型抗这类攻击，结果出奇地好，Claude 在实践中已大体解决 prompt injection。他希望其他实验室跟进；模型越安全，用户越安全。他还指向一位独立研究者的 benchmark，以及他们自己超出实验室 evals 的 red teaming。
+
+https://x.com/bcherny/status/2086520950259118464
+
+Replit CEO Amjad Masad
+
+After noting that rogue OpenAI agents in the Hugging Face incident independently developed something like Kantian ethics, he asks whether spontaneous agent coordination can be steered toward public good. His answer is HelpPeer (https://helppeer.ai/): a public commons with tell and lookup APIs so agents publish discoveries and check whether another agent already solved an expensive problem. In a Shai-Hulud-style supply-chain attack, thousands of security agents would stop reinventing the same reverse-engineering. While testing, Replit Agent already posted a useful Codegen tip; beta testers can point agents at https://helppeer.ai/llms.txt.
+
+在指出 Hugging Face 事件里 rogue OpenAI agents 自发演化出类似康德伦理之后，他追问：agents 的自发协作能否导向公共利益？答案是 HelpPeer（https://helppeer.ai/）：一个带 tell / lookup API 的公共 commons，让 agent 发布发现，并在做昂贵工作前查有没有同伴已经踩过坑。面对 Shai-Hulud 式供应链攻击，上万安全 agents 就不必各自重做同一套 reverse-engineering。测试时 Replit Agent 已自发贴出有用的 Codegen 提示；愿意 beta 的人可以把 agent 指向 https://helppeer.ai/llms.txt。
+
+https://x.com/amasad/status/2086468839307640833
+https://x.com/amasad/status/2086628413322981747
+
+Box CEO Aaron Levie
+
+He contrasts researchers' air-gapped sandbox escape horror stories with how mundane actual agents still look, then digs into uneven enterprise diffusion. Agentic coding went vertical because value is pure digital output and task size can be unbounded in one session. Sales, law, and medicine need human feedback loops, so large agentic work will not look like coding by default. Citing Matan Grinberg (Factory) on Training Data: if everyone called in sick tomorrow, token usage would plummet because nobody would be there to prompt. The opportunity is rewiring processes so agents roam contracts, CRM signals, and research in the background; that takes change management and data cleanup, not just a better model.
+
+他把研究者的“隔空沙箱越狱”惊悚故事，和现实里 agents 仍很日常的样子对照，然后切入企业扩散为何不均匀。Agentic coding 之所以垂直起飞，是因为价值直接等于数字产出，且单次 session 任务规模理论上无上限。销售、法律、医疗需要人对人的反馈环，所以大体量 agent 工作默认不会长成 coding 那样。他引用 Factory 的 Matan Grinberg 在 Training Data 上的说法：如果明天所有人都请病假，token 用量会暴跌，因为没人去 prompt。机会在于把流程改造成 agents 能在后台扫合同、CRM 信号和研究；这需要 change management 和数据清理，不只是更好的模型。
+
+https://x.com/levie/status/2086625684353605941
+https://x.com/levie/status/2086559201053294909
+
+Vercel CEO Guillermo Rauch
+
+If you are not reading the code, yourself or via agentic inquiry, you are probably a beginner, shipping throwaway or prototype software, taking debt, or solving basic problems, and that can be fine. But models are not at full autonomy yet: they make rookie mistakes and bad architecture calls. He just watched the best model add a nonsensical 700ms delay to "settle" something, then admit it was cargo-culting. He expects the need to read code to fade, and most code to become assembly-like, but the global internet rides on this stack, so respect the risk. Separately he celebrates Hermes landing on Vercel.
+
+如果你不读代码（自己读，或通过 agentic inquiry），那你多半是新手、在做一次性或原型、在背债，或问题本身很基础，这些都可以。但模型还没到 full autonomy：会犯新手错误，也会走歪架构。他刚看“世界最强模型”加了个无意义的 700ms delay 来 “settle”，随后承认自己在 cargo-cult。他相信读代码的必要性会越来越弱，大多数代码会变得像 assembly，但全球互联网正骑在这套叙事上，风险必须被尊重。另外他为 Hermes 上 Vercel 打了个心。
+
+https://x.com/rauchg/status/2086513316265181213
+https://x.com/rauchg/status/2086521731133649137
+
+AI engineer / Latent Space host Swyx (smol.ai / Cognition)
+
+Defending AI Engineer talks against "slop" comments: the industry is bigger than any one head; speakers are practitioners with little polish, not circuit talkers; judging only by view count means the algorithm owns you. He owns the need for better curation, coaching, and production, and is wary of dumping talks onto a secondary channel that starts speakers from a smaller base. Separately: delete unused agent skills; timeline hype piles them up until they eat context or fight each other in your traces.
+
+回应 AI Engineer 频道上把内容当 “slop” 的评论：这个行业大到任何人都装不进脑子；讲者多半是刚做完一年工作的工程师或创始人，不是职业巡回演讲人；只拿播放量判质量，等于把大脑交给算法。他也认账：策展、辅导、制作都能更好；至于把部分 talk 丢到二级频道，他仍担心会让讲者从更小的基数起步。另外提醒：删掉用不上的 agent skills；时间线上的“改变人生”会堆到吃 context，甚至在 traces 里互相打架。
+
+https://x.com/swyx/status/2086700857358450853
+https://x.com/swyx/status/2086505938144616810
+
+AI creator Peter Yang
+
+He highlights Linear Agent filing feature requests for itself: when a user asks for something without the right tool, the agent reports the gap and Linear turns it into an issue, so every failed task becomes product feedback. Separately he is recording his parents' history with Granola, then plans to use AI to clean, organize, and compile a physical book. He also notes how hard it still is to convert "normies" from ChatGPT web to the desktop app for agents, even with manual onboarding.
+
+他点出 Linear Agent 会给自己提 feature request：用户要它做某事却缺工具时，agent 上报缺口，Linear 再落成 issue，于是每个完不成的任务都变成产品反馈。另外他用 Granola 录父母口述历史，再计划用 AI 清理、整理并做成实体书。他也吐槽：即便手动 onboarding，仍很难把普通人从 ChatGPT 网页迁到桌面端去真正用上 agents。
+
+https://x.com/petergyang/status/2086562291206791482
+https://x.com/petergyang/status/2086660536528420998
+https://x.com/petergyang/status/2086496705609085350
+
+OpenClaw builder Peter Steinberger
+
+For laughs, he used ChatGPT Work (the website) to install OpenClaw and Ollama, download a local model, and run his claw inside it.
+
+他开玩笑用 ChatGPT Work（网页版）安装 OpenClaw 和 Ollama，下载本地模型，并在里面跑起自己的 claw。
+
+https://x.com/steipete/status/2086648656946696641
+
+OpenAI CEO Sam Altman
+
+He is impressed OpenAI can make "magic intelligence in the sky," and more impressed the team stays focused on everyone winning: business privacy, low prices, predictable policies. He also highlights how much the team celebrates customer and user success, with a shout-out to Thibault Sottiaux.
+
+他佩服 OpenAI 能做出“天上的魔法智能”，更佩服团队仍盯着让所有人赢：商业隐私、低价、可预期政策。他还强调团队有多会庆祝客户和用户的成功，并点名 Thibault Sottiaux。
+
+https://x.com/sama/status/2086468661670461671
+https://x.com/sama/status/2086469875581755696
+https://x.com/sama/status/2086470022772457950
+
+SPC GP Aditya Agarwal (ex-Dropbox CTO)
+
+He maps Wittgenstein onto AI history: in 1921 language must have a deep logical structure; later, look at how language is used. AI in 1960 chased deep symbolic structure; about 60 years later, scale the neural net.
+
+他把 Wittgenstein 映射到 AI 史：1921 年相信语言必有深层逻辑结构；后来改成看语言怎么被使用。AI 在 1960 追逐深层符号结构；大约 60 年后，答案变成 scale the neural net。
+
+https://x.com/adityaag/status/2086592574534602781
+
+FPV Ventures partner Nikunj Kothari
+
+He asks what the best AI multiplayer experience is: human-agent pairs are common, but human(s) with agent(s) collaborating well is still rare. Separately, Fable's habit of parking every feature behind environment-variable flags got so bad he put "defaults matter, no hedging" into Claude.md.
+
+他问目前见过最好的 AI multiplayer 体验是什么：人与 agent 的双人界面到处都是，但 human(s) 与 agent(s) 真正协同的体验仍少见。另外吐槽 Fable 爱把所有功能塞进环境变量 flag，严重到他只好在 Claude.md 里写上 “defaults matter, no hedging”。
+
+https://x.com/nikunj/status/2086438339419496449
+https://x.com/nikunj/status/2086492103945900437
+
+Meta Sr Director of AI Madhu Guru (ex-Google Gemini / Veo)
+
+His only path to getting good at anything is temporary obsession: meditation, standup, family, work, LLMs. After enough immersion, knowledge becomes intuition and taste. Perfect balance is a myth; it is more like riding a bike and correcting the lean.
+
+他说自己变强的唯一路径是阶段性沉迷：冥想、脱口秀、家庭、工作、LLMs。浸泡够久，知识会变成直觉和品味。完美平衡是神话；更像骑自行车，歪了再扳回来。
+
+https://x.com/realmadhuguru/status/2086537000136642846
+
+YC President & CEO Garry Tan
+
+Favorite working method: start from the bug, gap, false claim, half-built tool, or weird institutional behavior; ask what hidden machinery makes that failure possible; fix the root cause; repeat forever.
+
+他最爱的工作法：从 bug、缺口、假主张、半成品工具或机构怪癖出发；追问是什么隐藏机制让这个可见失败成为可能；修根因；永远重复。
+
+https://x.com/garrytan/status/2086615082163941460
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
