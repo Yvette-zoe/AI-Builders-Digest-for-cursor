@@ -1,0 +1,106 @@
+AI Builders Digest — 2026-08-15
+
+## X / TWITTER
+
+**Claude Code lead Boris Cherny (Anthropic)** is running an experiment where Claude takes over day-to-day app maintenance. In a Slack channel (`proj-claude-maintains-apps`), Claude Tag runs daily routines across iOS, Android, Desktop, web, CLI, and Agent SDK: a crash fuzzer that taps around simulators to find and fix crashes, a dup unifier that opens PRs to merge near-duplicate abstractions, a dead-code remover that adds logging then deletes confirmed dead paths, and an abstraction police for leaky layers. Over a few weeks those routines opened 388 PRs and 180 merged after Claude Code Review plus human review; when a PR is wrong, they ask Claude to retune the routine for the next day.
+
+Claude Code 负责人 Boris Cherny（Anthropic）正在做一项实验：让 Claude 接管日常应用维护。在 Slack 频道 `proj-claude-maintains-apps` 里，Claude Tag 会在 iOS、Android、Desktop、web、CLI 和 Agent SDK 上跑日常例程：崩溃模糊测试（在模拟器里乱点找崩溃并定位修复）、重复抽象统一（开 PR 合并近似分叉的抽象）、死代码清理（先加日志确认再删）、以及修补泄漏抽象。几周内这些例程开了 388 个 PR，其中 180 个在 Claude Code Review 加人审后合并；若 PR 不对，就让 Claude 调优例程，隔天再试。
+
+https://x.com/bcherny/status/2088014489438621990
+
+**Google VP Josh Woodward (Google Labs / Gemini App / Google AI Studio)** highlighted Gemini 3.7 Flash: fast, about 50% cheaper, and shipped in roughly three weeks.
+
+Google 副总裁 Josh Woodward（Google Labs / Gemini App / Google AI Studio）点出了 Gemini 3.7 Flash：更快、大约便宜 50%，并用约三周时间落地。
+
+https://x.com/joshwoodward/status/2088016871710957587
+
+**Codex & ChatGPT lead Thibault Sottiaux (OpenAI)** pushed three product beats: ChatGPT can now work Google Docs, Sheets, and Slides in-flow so he chats or talks through edits without leaving the doc; he also demoed asking ChatGPT to roast a day of computer usage via the Computer History plugin (Slack ate 48% of recorded activity on his Mac); and he amplified `/ultrafast` mode, which OpenAI CEO Sam Altman also boosted.
+
+Codex 与 ChatGPT 负责人 Thibault Sottiaux（OpenAI）连发三条产品信号：ChatGPT 可直接在流程里处理 Google Docs / Sheets / Slides，边聊边改文档；他还演示用 Computer History 插件让 ChatGPT 吐槽一天电脑使用（Slack 占了他 Mac 记录活动的 48%）；并转发了 `/ultrafast` 模式，OpenAI CEO Sam Altman 也跟着推了这一条。
+
+https://x.com/thsottiaux/status/2088103609477238858
+https://x.com/thsottiaux/status/2088133823619895712
+https://x.com/thsottiaux/status/2088019704803897705
+https://x.com/sama/status/2088101491802243121
+
+**AI engineer Swyx (smol.ai / DX Tips / Cognition / AI Engineer / Latent Space)** argues human I/O is the bottleneck, so after listening to Matt Pocock and Thariq he modified `/align-me` to batch questions instead of round-by-round, the same look-ahead intuition as speculative decoding, and says it works incredibly for design explorations. He also pointed to recent frontier-skills posts from Matt, Thariq, and Philipp Schmid.
+
+AI 工程师 Swyx（smol.ai / DX Tips / Cognition / AI Engineer / Latent Space）认为人机 I/O 很贵，听完 Matt Pocock 和 Thariq 后，他把 `/align-me` 改成一次批量提问而非轮询，直觉类似 speculative decoding 的前瞻，并说这对设计探索特别好用。他还串起了 Matt、Thariq 和 Philipp Schmid 近期关于 frontier skills 的讨论。
+
+https://x.com/swyx/status/2088073777779515615
+https://x.com/swyx/status/2088074149260673441
+
+**Meta Sr Director of AI Madhu Guru (ex-Google Gemini / Veo / Nano Banana)** says prompt debt is the new tech debt: with every model update you should cut at least 50% of prompts, because the usual failure-add-rules loop turns a system prompt into a novel that micromanages a smarter model into a dumb rules machine.
+
+Meta AI 高级总监 Madhu Guru（前 Google Gemini / Veo / Nano Banana）提出：prompt debt 是新的 tech debt。每次模型升级至少砍掉 50% 的 prompts；常见路径是失败就加规则、工具失败就加例子、输出怪异就加格式约束，三个月后 system prompt 变成小说，反而把更聪明的模型管成只会背规则的笨机器。
+
+https://x.com/realmadhuguru/status/2087916590964851172
+
+**Replit CEO Amjad Masad** says ARC-AGI-3 is nearly solved by merely adding a coding harness, evidence that coding generalizes LLMs, and forecasts that by next year using a computer will be optional as work radically changes.
+
+Replit CEO Amjad Masad 称 ARC-AGI-3 几乎只靠加上 coding harness 就被接近攻克，印证 coding 能泛化 LLM；并预测到明年使用电脑将变成可选项，工作方式会剧烈变化。
+
+https://x.com/amasad/status/2088124774824521786
+https://x.com/amasad/status/2088110851681386864
+
+**Vercel CEO Guillermo Rauch** predicts one command that configures every existing coding harness (Claude Code, Codex, and peers) will become the default way to run coding AI at scale, bundling uptime, model choice, lower costs, observability, and ZDR. He also pointed people at free GLM 5.2 throughput up to about 500 TPS via blackboxai.
+
+Vercel CEO Guillermo Rauch 预测：一条能配置所有现有 coding harness（Claude Code、Codex 等）的命令，会成为规模化使用 coding AI 的默认方式，把 uptime、模型选择、更低成本、可观测性和 ZDR 打包在一起。他还推荐了通过 blackboxai 免费试用、最高约 500 TPS 的 GLM 5.2。
+
+https://x.com/rauchg/status/2088020529039180204
+https://x.com/rauchg/status/2087982033499042205
+
+**Box CEO Aaron Levie** calls the “elimination of engineers” hypothesis absurdly wrong: AI is a power tool that accelerates whatever you want to build, so engineer value rises as companies apply engineering to more domains (drug discovery, manufacturing, larger software). Even as models improve, experts utilize them better than novices.
+
+Box CEO Aaron Levie 认为“工程师会被消灭”的假说荒谬至极：AI 是加速一切开发的动力工具，公司会把工程能力铺到更多领域（药物发现、制造、更大软件项目），工程师价值反而上升。即便模型越来越强，专家也比新手更能用好它们。
+
+https://x.com/levie/status/2088105350201270529
+
+**Builder Zara Zhang** notes the irony that people expected AI coding to devalue engineers, yet the hottest job titles still say engineer: forward-deployed, design, product, growth.
+
+Builder Zara Zhang 指出讽刺之处：很多人以为 AI coding 会让工程师贬值，可最抢手的岗位名里仍全是 engineer：forward-deployed、design、product、growth。
+
+https://x.com/zarazhangrui/status/2088087765267386564
+
+**FirstMark VC Matt Turck (MAD Podcast / MAD Landscape)** says the market just escalated another notch: you are either an AI-native rocketship stuck in permanent fundraising and death-match customer capture at scary valuations, or you feel left for dead no matter how good the company actually is.
+
+FirstMark VC Matt Turck（MAD Podcast / MAD Landscape）称市场又抬升一档：要么是 AI-native 火箭船，陷入永久融资、越来越吓人的估值、与同类死磕抢客户并牺牲毛利；要么无论公司本身多好，都感觉被丢在一边等死。
+
+https://x.com/mattturck/status/2087978386195103916
+
+**FPV Ventures partner Nikunj Kothari** praises Grok Bot’s UX and onboarding, then frames the open design bet: one super agent that holds all context (Jarvis / orchestrator) versus many task-scoped sub-agents. He guesses products start narrow for context/tool/cost reasons, then veer toward a master agent that orchestrates the bots you create.
+
+FPV Ventures partner Nikunj Kothari 称赞 Grok Bot 的 UX 与 onboarding，并抛出产品设计分歧：要一个持有全部上下文的超级 agent（Jarvis / 编排者），还是多个按任务切片的 sub-agents。他猜测眼下因 context、工具与成本约束会先做窄口，长期会走向能编排你所建 bots 的 master agent。
+
+https://x.com/nikunj/status/2087906119914340540
+
+**Product educator Peter Yang** asks what belongs in modern product specs so they stay friendly for both humans and agents (one shared doc vs separate sections), and separately notes that during a family health situation AI helped him navigate healthcare bureaucracy more than research the illness itself.
+
+产品教育者 Peter Yang 在问：如今产品规格该怎么写，才能同时对人和 agent 友好（一份共用文档，还是分两段）。另在家庭健康事务中，他发现 AI 帮他穿越医疗体系官僚流程，比研究疾病本身更有用。
+
+https://x.com/petergyang/status/2088108304274960667
+https://x.com/petergyang/status/2087946170274570385
+
+## PODCASTS
+
+**No Priors — What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest**
+
+**The Takeaway:** Thirty years after machines surpassed humans at chess, the game is more popular than ever, because people still want to compete with people, and AI that coaches, puzzles, and reviews can make human skill more exciting rather than obsolete.
+
+**一句话结论：** 机器在棋力上碾压人类已三十年，但国际象棋比以往更火：人仍想跟人比，而能教练、出题、复盘的 AI 会让人类技艺更有趣，而不是过时。
+
+Chess.com CEO Erik Allebest bought the domain out of a 2005 bankruptcy auction for about $56k after VCs called chess uninvestable, then grew a bootstrapped, cash-flow business into roughly 10M DAU, 40–50M MAU, 250M+ members, ~$200M revenue, and ~650 remote employees. Culture and content waves (COVID, Queen’s Gambit, short-form, bots, scandals) did not fade like sourdough; each spike left a higher baseline, and only around 2024 did the team fully accept this was a compounding big business aiming at a billion players.
+
+Chess.com CEO Erik Allebest 在 2005 年破产拍卖中以约 5.6 万美元拿下域名（当时 VC 多说国际象棋不可投），随后靠自举与现金流把公司做到约 1000 万 DAU、四五千万 MAU、2.5 亿+ 注册用户、约 2 亿美元营收、约 650 人全远程团队。COVID、《后翼弃兵》、短视频、机器人与作弊丑闻等浪潮并未像酸面包热潮那样退潮；每次高峰都会抬高基线，大约到 2024 年团队才真正接受这是一门持续复利的大生意，目标是十亿棋手。
+
+Allebest’s AI thesis is concrete: early engines made top play more boring as everyone copied Stockfish perfection, then neural nets (Leela Chess Zero and peers) restored aggression and novelty; now AI game review, personalized puzzles, and pocket coaches help humans enjoy and improve faster. “Fundamentally, humans want to do human stuff,” he says: humans competing against humans, making things, solving problems. Expertise still needs repetitions (puzzles, reviewing mistakes), and chess.com leans hard on anti-cheat statistical models because integrity is existential once prize money and ego are on the line.
+
+Allebest 的 AI 观点很具体：早期引擎让顶尖棋局变无聊（人人模仿 Stockfish 的完美），神经网络（如 Leela Chess Zero）又带回攻击性与新招；如今 AI 复盘、个性化谜题与口袋教练，让人学得更快也更享受。他说：“从根本上说，人想做人的事”：人与人竞争、创造、解题。专长仍靠重复训练（做题、复盘错误），而 chess.com 在反作弊统计模型上投入很大，因为一旦涉及奖金与虚荣，诚信就是生死线。
+
+Internally, AI shortens the loop from idea or bug to live code, powers support automations beside human agents, and feeds an internal auth/knowledge layer (GNS) plus upcoming AI coaching that looks at a week of games and chats recommendations. The company is still “a chess company” first, but is exporting the ratings-first playbook to poker via Gambit and other classic games: skill rating as a signal people may care about as much as money.
+
+对内，AI 缩短“发现问题/机会到上线”的回路，支撑客服自动化并与人工并存，还驱动内部鉴权与知识层 GNS，以及能回看一周对局并聊天给建议的 AI 教练。公司仍首先是“国际象棋公司”，但也正把“评分优先”的打法导出到 Gambit 扑克和其他经典游戏：技能评分可能成为人们与金钱一样在意的信号。
+
+https://www.youtube.com/@NoPriorsPodcast
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
