@@ -1,0 +1,4 @@
+.DS_Store
+output/resend-payload.json
+*.pyc
+__pycache__/
