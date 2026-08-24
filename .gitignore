@@ -1,0 +1,4 @@
+output/resend-payload.json
+output/*.payload.json
+.env
+*.env
