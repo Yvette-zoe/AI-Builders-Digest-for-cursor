@@ -1,0 +1,92 @@
+# AI Builders Digest — 2026-08-30
+
+## X / TWITTER
+
+**OpenAI Codex & ChatGPT lead Thibault Sottiaux** announced that OpenAI is ending its partnership with Cursor and will stop providing model access through Cursor, citing trust, with the change set for November 12 to leave time to plan. Going forward, users can keep using their own OpenAI API key and OpenAI IDE extensions inside Cursor; OpenAI says it will keep supporting a broad range of tools and harnesses, including OSS and closed-source options, plus its own open-source work.
+
+OpenAI Codex & ChatGPT lead Thibault Sottiaux 宣布，OpenAI 将终止与 Cursor 的合作，不再通过 Cursor 提供模型访问，理由归结为信任问题，并要求自 11 月 12 日起生效，以便用户有时间安排。后续仍可在 Cursor 中使用自己的 OpenAI API key 以及 OpenAI 的 IDE 扩展；OpenAI 称会继续支持广泛的工具与 harness（含开源与闭源），并继续投入自有开源项目。
+
+https://x.com/thsottiaux/status/2093515916076343774
+
+**Practical AI educator Peter Yang** argues Claude Cowork and ChatGPT Work are only partial solutions, and that Grok Bot is the right end state for a capable AI agent product aimed at non-technical people: users can easily understand it as a computer running in the cloud. He bets most people cannot clearly explain how ChatGPT Work differs from Codex, or how Claude Cowork actually works.
+
+Practical AI educator Peter Yang 认为 Claude Cowork 和 ChatGPT Work 都只是部分解法，面向非技术用户的真正终局应是 Grok Bot：人们很容易把它理解成“跑在云端的一台电脑”。他赌多数人说不清 ChatGPT Work 与 Codex 的差别，也说不清 Claude Cowork 到底怎么工作。
+
+https://x.com/petergyang/status/2093379695144530313
+
+**Meta Sr Director of AI Madhu Guru** (ex-Google Gemini/Veo) says AI product building has about a 3-month playbook half-life. Traditional product teams milk a playbook for years; AI labs throw playbooks away every few months as returns diminish. His adaptation advice: define meta-principles for continuously learning what the market wants now and in three months, execute with extreme urgency, and build a team optimized for inventing rather than playbook milking.
+
+Meta Sr Director of AI Madhu Guru（前 Google Gemini/Veo）说，AI 产品构建的 playbook 半衰期大约只有 3 个月。传统产品团队会把一套 playbook 吃上好几年；AI labs 则每隔几个月就主动扔掉旧 playbook，因为回报开始递减。他的适应方法：先定义可持续学习“市场今天要什么、三个月后可能要什么”的元原则，再用极高紧迫度执行，并组建为发明而非榨取 playbook 而优化的团队。
+
+https://x.com/realmadhuguru/status/2093562783627620456
+
+**Anthropic Claude Code engineer Thariq** said he has long admired the Cursor team for bringing AI coding to the world, and that Anthropic is excited to continue partnering with them (amid OpenAI’s Cursor access change).
+
+Anthropic Claude Code 工程师 Thariq 表示，他长期欣赏 Cursor 团队在把 AI coding 带给世界这件事上的贡献，并称 Anthropic 很高兴继续与他们合作（正值 OpenAI 调整 Cursor 模型访问之际）。
+
+https://x.com/trq212/status/2093541555068182781
+
+**Replit CEO Amjad Masad** responded to the Cursor/OpenAI news by noting OpenAI models are available on Replit for free, that Replit’s router makes high-end models cost-efficient, and that businesses seeking an independent multi-model alternative to Cursor can get transition funding from Replit. He separately called growth agents a still-untapped opportunity.
+
+Replit CEO Amjad Masad 回应 Cursor/OpenAI 消息称：Replit 上可免费使用 OpenAI 模型，其 router 也能让高端模型成本更高效；若企业在找独立、多模型的 Cursor 替代方案，Replit 愿意资助迁移。他另外指出 growth agent 仍是一块尚未被充分挖掘的潜力。
+
+https://x.com/amasad/status/2093533378880667787
+https://x.com/amasad/status/2093434828385313068
+
+**Vercel CEO Guillermo Rauch** sees the web splitting into two extremes: ultra-fancy human experiences (delight, brand, entertainment; enabled by threejs / typegpu) versus agent-centric content, data, and APIs (markdown and MCP as early signals). The middle, he argues, gets subsumed by agents producing just-in-time UI, with the agent acting like the new browser. He also flagged explosive MCP growth (including mcp-handler npm downloads) and positioned eve as an agent stack you own end-to-end via a Git repo: runtime, model choice, skills, tools, connectivity, and sandbox.
+
+Vercel CEO Guillermo Rauch 认为 Web 正走向两个极端：一端是极致面向人类的体验（愉悦、品牌、娱乐；threejs / typegpu 等在推动），另一端是面向 agent 的内容、数据与 API（markdown 与 MCP 只是冰山一角）。中间地带会被 agent 即时生成的 UI 吞掉，agent 在这种模型里更像新浏览器。他还指出 MCP 正在爆发式增长（含 mcp-handler 的 npm 下载），并把 eve 定位为你能通过 Git repo 完整拥有的 agent 栈：runtime、模型选择、skills、tools、connectivity 与 sandbox。
+
+https://x.com/rauchg/status/2093482695838007318
+https://x.com/rauchg/status/2093463771071336497
+https://x.com/rauchg/status/2093387887668814214
+
+**Box CEO Aaron Levie** says the average strongly held AI belief now has a half-life of six months at best. He lists cycling claims the industry still has no consensus on: OSS is too far behind; labs can’t be profitable at scale; all software will be replaced by agents; you can’t build moats on models; cheaper models mean less compute; you don’t need evals; RAG is dead; AI will decimate engineering jobs; prompting won’t matter; we’ve hit a training wall; frontier models are too dangerous to release; and dozens more. His prescription: stay flexible, because constant change is the baseline for a while.
+
+Box CEO Aaron Levie 说，如今 AI 领域一个“强烈信念”的半衰期最多大约六个月。他列出一串行业仍无共识的轮换主张：开源追不上、labs 无法规模化盈利、所有软件都会被 agent 取代、模型之上建不成护城河、更便宜的模型意味着更少算力、不需要 eval、RAG 已死、AI 会摧毁工程岗位、prompting 未来不重要、训练撞墙、前沿模型太危险不该发布，以及更多类似说法。他的处方：保持思维弹性，因为持续变化会是常态一段时间。
+
+https://x.com/levie/status/2093568352736436576
+
+**Builder Zara Zhang** argues whether something is “slop” depends less on whether it is AI-generated and more on whether it is informed by specific, unique human experience; there is plenty of human-generated slop. She also asked whether signing into a real X account inside Grok Bot’s virtual computer to act on timeline, bookmarks, or followers risks an account ban or flag, noting she has been extremely cautious giving any agent X access.
+
+Builder Zara Zhang 认为，某内容是不是 “slop”，与是否由 AI 生成关系更小，关键在于它是否来自具体、独特的人类经验与视角；人类制造的 slop 同样很多。她还提问：若在 Grok Bot 的虚拟电脑里登录真实 X 账号去处理时间线、书签或粉丝列表，是否有账号被封禁或标记的风险；她一直对把 X 账号交给任何 agent 非常谨慎。
+
+https://x.com/zarazhangrui/status/2093396989329469505
+https://x.com/zarazhangrui/status/2093317719320064164
+
+**FPV Ventures partner Nikunj Kothari** told founders that the best pitches do not need the word “AI,” and that AI cannot be the only “why now” in a pitch. Subjective per VC, he says, but getting ahead of both points helps.
+
+FPV Ventures partner Nikunj Kothari 对创始人说：最好的 pitch 甚至不必出现 “AI” 这个词；而且 AI 不能成为 pitch 里唯一的 “why now”。他承认这带有个人主观、因 VC 而异，但提前避开这两点会有帮助。
+
+https://x.com/nikunj/status/2093367245024240043
+
+**Every CEO Dan Shipper** announced that Every now has a Head of Evals and called the work game-changing. He also argued that in AI there are no bad ideas, only weak models, and every idea gets its day as the exponential continues.
+
+Every CEO Dan Shipper 宣布 Every 已有 Head of Evals，并称其工作真正改变游戏规则。他还提出：在 AI 里没有坏想法，只有不够强的模型；随着指数增长继续，每个想法都会迎来属于自己的一天。
+
+https://x.com/danshipper/status/2093347973669286146
+https://x.com/danshipper/status/2093434101067808930
+
+## PODCASTS
+
+### No Priors: Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein
+
+**The Takeaway:** In the AI era, enterprise differentiation concentrates in proprietary data while models and compute look increasingly fungible, so companies that can map, protect, and activate their full data history will outrun those that treat backup as dusty tape.
+
+**要点：** 在 AI 时代，企业差异化正集中到专有数据上，而模型与算力越来越像可替换件；能盘点、保护并激活完整数据历史的公司，会跑赢仍把备份当落灰磁带的公司。
+
+Eon co-founders Ofir Ehrlich and Gonen Stein describe Eon as a cloud data foundation that started in backup and disaster recovery, then expanded to map and classify data across hyperscalers, ingest structured and unstructured sources cheaply for protection and recovery, and make that corpus queryable for AI and LLMs. The punchline is not storage nostalgia: Google reportedly bought Spirit Airlines data out of bankruptcy for about $10,000,000 to train models, not airplanes. Stein’s framing: for a hotel chain, food chain, or tech company alike, “the most valuable thing that you have is actually your data,” and that data becomes a moat once everyone has access to the same cool tools.
+
+Eon 联合创始人 Ofir Ehrlich 与 Gonen Stein 把 Eon 描述为云端数据底座：从备份与灾难恢复起步，扩展到跨 hyperscaler 盘点与分类数据，低成本摄入结构化与非结构化数据用于保护与恢复，并让这份语料可被 AI / LLM 检索使用。重点不是怀旧式存储：据称 Google 在 Spirit Airlines 破产程序中花约 $10,000,000 买的是数据而非飞机，用来训练模型。Stein 的表述是：无论酒店、餐饮还是科技公司，“你真正最有价值的东西其实是数据”；当所有人都能用上同一批酷工具时，数据就变成护城河。
+
+They argue real-world agent training data is scarce; synthetic sets often fail to look like how companies actually work, so buyers keep hunting enterprise corpora (including sensitive PII and financial history) and labs reportedly solicit hedge-fund and other proprietary datasets. On security, the threat model shifts from human actors to nonhuman agents that already hold legitimate permissions: tables can vanish in seconds, non-technical employees ship company data into builder tools without understanding compliance, and CIOs get squeezed between board pressure to enable AI and fear of uncontrolled leakage. Cloud migrations were hard but paced; AI adoption is board-mandated and faster, which is why forward-deployed engineers and product-led growth for agent tooling are suddenly mainstream enterprise motion.
+
+他们认为真正可用于训练 agent 的真实世界数据很稀缺；合成数据往往不像公司真实运转方式，因此买家持续搜刮企业语料（含敏感 PII 与财务历史），labs 也据称在向对冲基金等索取专有数据。安全侧，威胁模型从人类攻击者转向已持有合法权限的非人类 agent：表可以在数秒内被删掉，非技术员工把公司数据丢进各类 builder 工具却不懂合规，CIO 夹在董事会“立刻上 AI”的压力与失控泄露的恐惧之间。云迁移曾经很难但有节奏；AI 采纳是董事会强制且更快，这也是为什么 forward-deployed engineers，以及面向 agent 工具的 product-led growth，突然变成主流企业动作。
+
+A line that captures the shift: "They didn't buy airplanes. They bought the data. They bought the data for $10,000,000 because they think it's very important in that perspective. They're using it to train models."
+
+最能概括这一转变的一句原话："They didn't buy airplanes. They bought the data. They bought the data for $10,000,000 because they think it's very important in that perspective. They're using it to train models."
+
+https://www.youtube.com/@NoPriorsPodcast
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
