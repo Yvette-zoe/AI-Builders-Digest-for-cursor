@@ -1,0 +1,93 @@
+# AI Builders Digest — 2026-09-20
+
+## X / TWITTER
+
+**Anthropic Claude Code Thariq** announces AGENTS.md support in Claude Code 2.1.277: if a folder has no CLAUDE.md, Claude will check for and use AGENTS.md (toggleable in /config). The feature is built as a Claude Code mod (their upcoming harness customization layer); this is a built-in mod, and custom project-instruction mods are coming. Source for the mod is public on GitHub.
+
+Anthropic Claude Code Thariq 宣布 Claude Code 2.1.277 支持 AGENTS.md：若目录没有 CLAUDE.md，Claude 会查找并使用 AGENTS.md（可在 /config 开关）。该能力基于即将推出的 Claude Code mods 定制层实现；这是内置 mod，自定义 project instructions 的 mods 也会到来。mod 源码已在 GitHub 公开。
+
+https://x.com/trq212/status/2101009392611278961
+https://x.com/trq212/status/2101009393731223817
+https://x.com/trq212/status/2101009395052343462
+https://github.com/anthropics/claude-code/tree/main/mods/agents-md
+
+**Vercel CEO Guillermo Rauch** says Jev adoption is shocking and partly downstream of the "AI is too expensive/slow" zeitgeist: people want to optimize and put AI in more places. Vercel is offering Free Jev for the weekend. Separately, he flags a possible record day for open-model token volume on Vercel AI Gateway (Open 78.4% / Closed 21.6%); by spend, Moonshot AI and DeepSeek sit at #3 and #4, and with Z.ai their combined spend surpasses OpenAI (#2), noting that is inference spend across providers, not revenue to the open-weight labs.
+
+Vercel CEO Guillermo Rauch 说 Jev 的采用速度惊人，部分来自 “AI 太贵/太慢” 的时代气氛：人们急于优化，并把 AI 塞进更多场景。Vercel 周末提供 Free Jev。另据 Vercel AI Gateway，当天 open models 的 token 量占比可能创纪录（Open 78.4% / Closed 21.6%）；按 spend 看，Moonshot AI 与 DeepSeek 分列第 3、第 4，再加上 Z.ai，三者合计已超过 OpenAI（第 2），并注明这是跨 provider 的 inference spend，不是 open-weight labs 的直接营收。
+
+https://x.com/rauchg/status/2101079472732848510
+https://x.com/rauchg/status/2101116978677285241
+https://x.com/rauchg/status/2101186741042663579
+https://vercel.com/blog/ai-gateway-jev-model-launch
+
+**Box CEO Aaron Levie** demos Box + Jev for near-instant, near-zero-cost judgment calls: pull an incident report from Box, ask whether it is customer-facing and how severe it is, route the file into escalate / monitor / review folders, and write a metadata template instance with the result. He sees this class of split-second agent decisions spanning insurance claims, contracts, loans, security reviews, and customer log analysis.
+
+Box CEO Aaron Levie 演示 Box + Jev 做近乎瞬时、成本极低的判断：从 Box 拉取事故报告，判断是否面向客户与严重程度，把文件分到 escalate / monitor / review 文件夹，并写入 metadata template。他认为这类瞬时 agent 决策可覆盖保险理赔、合同、贷款、安全审查与客户日志分析等大量企业场景。
+
+https://x.com/levie/status/2101007708044574906
+
+**AI educator Peter Yang** calls Meta Muse the best personal agent he has tried: it saved him $800+ a year on cable and phone bills (including a $288 Comcast negotiation via phone transcript), and he walks through 10 use cases such as a personalized morning news feed, habit tracking, and agent-driven customer-support calls. His takeaway: most companies' support lines are not ready for agents, and he can see Muse becoming Meta's next billion-user app. Video: https://www.youtube.com/watch?v=eU1ICyI9bCs
+
+AI educator Peter Yang 称 Meta Muse 是他用过最好的 personal agent：一年帮他在有线与手机账单上省下 $800+（含一次经电话 transcript 谈下的 Comcast $288 年费减免），并拆解晨间新闻、习惯追踪、代打客服砍价等 10 个 use cases。他的判断是多数公司客服线还没准备好迎接 agents，并认为 Muse 有机会成为 Meta 下一个十亿用户级应用。视频：https://www.youtube.com/watch?v=eU1ICyI9bCs
+
+https://x.com/petergyang/status/2101033599319613533
+https://x.com/petergyang/status/2101083891507593576
+
+**FPV Ventures partner Nikunj Kothari** ships Jevable (https://jevable.com/), a filterable gallery of Jev demos from X so people can browse and add weekend projects. He also shows Jev scoring 3000 kid snacks with multiple criteria on nosugarforkids.com in 28 seconds for $0.11.
+
+FPV Ventures partner Nikunj Kothari 上线 Jevable（https://jevable.com/），把 X 上的 Jev demos 做成可筛选画廊，方便周末找灵感并提交自己的项目。他还演示 Jev 在 nosugarforkids.com 上按多标准给 3000 种儿童零食打分：28 秒、$0.11。
+
+https://x.com/nikunj/status/2101006585481073093
+https://x.com/nikunj/status/2101077053567332618
+https://jevable.com/
+https://www.nosugarforkids.com/
+
+**OpenClaw builder Peter Steinberger** describes roboclaw running the team server live on Discord, talking with gpt-live, and tracking all sessions it juggles so the team can ask about current and past meeting context in real time. He also tips opening the home sidebar to ask your claw to reorganize sessions, and notes CUA works across these surfaces so agents can be more efficient than screenshot-only workflows.
+
+OpenClaw builder Peter Steinberger 描述 roboclaw 在团队服务器上运行、常驻 Discord、对接 gpt-live，并掌握它同时处理的全部 sessions，开会时也能追问当前与历史上下文。他还建议打开 home sidebar 让 claw 帮你整理 sessions，并指出 CUA 也能覆盖这些界面，agent 不必只靠截图。
+
+https://x.com/steipete/status/2101115690719809873
+https://x.com/steipete/status/2101139037801283997
+https://x.com/steipete/status/2101141707375227372
+
+**Builder Zara Zhang** argues it is hard not to create slop when most of what you consume is slop: to fix output, first fix input.
+
+Builder Zara Zhang 认为当你消费的大多是 slop 时，很难不产出 slop：要修 output，先修 input。
+
+https://x.com/zarazhangrui/status/2101123389528457596
+
+**OpenAI Codex & ChatGPT Thibault Sottiaux** teases a packed keynote worked on with Romain Huet and Sam Altman: so much is shipping in quick succession that explaining it is the hard part. Some pieces arrive next week, with more coming together over the following months.
+
+OpenAI Codex & ChatGPT Thibault Sottiaux 预告与 Romain Huet、Sam Altman 一起打磨的 dense keynote：好东西太多、接连上线，难的是怎么讲清楚。下周就会放出一部分，后续几个月会陆续拼成完整图景。
+
+https://x.com/thsottiaux/status/2101157729037586694
+
+**Every CEO Dan Shipper** pushes back on people calling Jack Cheng's AI demo "fake," calling Cheng one of the smartest, most intellectually honest, craft-focused people he has worked with, and saying the demo is both real and a peek into the future.
+
+Every CEO Dan Shipper 反驳有人把 Jack Cheng 的 AI demo 说成 “假的”：称 Cheng 是他合作过最聪明、 intellectually honest、最讲 craft 的人之一，并强调该 demo 既真实，也是对未来的一瞥。
+
+https://x.com/danshipper/status/2101155521818476693
+
+## PODCASTS
+
+### No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon
+
+**The Takeaway:** Inception CEO and Stanford professor Stefano Ermon bets that inference-time scaling will decide the next architecture war, and that diffusion LLMs win because they generate many tokens in parallel on GPU-friendly workloads while autoregressive models stay sequential and memory-bound.
+
+**要点：** Inception CEO、Stanford 教授 Stefano Ermon 押注 inference-time scaling 将决定下一场架构之争；diffusion LLM 能并行生成大量 tokens、更贴合 GPU，而 autoregressive 模型仍是顺序、memory-bound 的。
+
+Ermon co-developed score-based / diffusion ideas with PhD student Yang Song around 2019, then pushed discrete diffusion for text and code. A 2024 Stanford result matched GPT-2-scale autoregressive quality (same perplexity, same parameter count) while generating text about 10x faster by emitting many tokens at once. Inception (~50 people, ~2 years old) commercializes that bet with Mercury models he says are on par with Flash / mini / nano-class speed-optimized frontier models on benchmarks, plus a custom serving stack because these models do not run on stock vLLM / SGLang.
+
+Ermon 约 2019 年与博士生 Yang Song 共同推进 score-based / diffusion 路线，后又攻离散 diffusion 以生成文本与代码。2024 年 Stanford 结果显示：在 GPT-2 规模上，diffusion 可用相同参数量达到与 autoregressive 相当的 perplexity，同时因并行吐 tokens 而快约 10 倍。Inception（约 50 人、成立约两年）把这条路线产品化：他称 Mercury 在 benchmark 上可对标 Flash / mini / nano 一类速度优化 frontier 模型，并自建 serving，因为这类模型跑不了现成的 vLLM / SGLang。
+
+His core analogy: transformers replaced RNNs because training needed parallelism; autoregressive decoding never got that upgrade at inference. Diffusion's coarse-to-fine denoising maps to the same parallel workload GPUs already love in training, which matters as economics shift to intelligence per watt and test-time compute, and as RL post-training bottlenecks on generating rollouts. One public customer example is voice agents (OpenCall): they left custom-chip serving for Mercury on NVIDIA GPUs and kept Cerebras-like latency with better availability and cost. He estimates roughly 20-30% of workloads already care enough about latency to be addressable by the fastest model inside a budget.
+
+他的核心类比是：transformers 取代 RNNs 是因为训练需要并行；但 autoregressive 解码在 inference 端从未完成同样升级。Diffusion 的 coarse-to-fine denoising 正好对应 GPU 在训练时擅长的并行 workload；当经济账变成 intelligence per watt 与 test-time compute，且 RL post-training 卡在生成 rollouts 时，这一点更关键。公开客户例子是语音 agent（OpenCall）：从定制芯片 serving 切到 NVIDIA GPU 上的 Mercury，仍接近 Cerebras 级延迟，却有更好供给与成本。他估计大约 20-30% 的 workload 已足够在意延迟，会选预算内最快的模型。
+
+A sharp control claim: autoregressive models often need the full object before you can score constraints, while diffusion can steer earlier with external rewards. He still frames speed as today's wedge and says longer-term bets (data efficiency via noisy views, new product interfaces) remain open. Moat talk is blunt: trade secrets plus the serving engine, customer feedback, and evals matter because "even if you train the diffusion based LLM, if you don't have the serving engine... you're still stuck." Memorable line: "the bitter lesson is that the more parallel solution is the one that is eventually going to win."
+
+控制性上他给了一个锋利对比：autoregressive 往往要等完整对象才能打约束分，diffusion 能更早用外部 reward 纠偏。速度仍是今天的 wedge；数据效率（noisy views）、新产品接口等更长线赌注仍开放。护城河说法很直白：trade secrets，加上 serving engine、客户反馈与 evals；因为 “即便你训出了 diffusion LLM，没有 serving engine……你还是卡住。” 最抓人的一句："the bitter lesson is that the more parallel solution is the one that is eventually going to win."
+
+https://www.youtube.com/@NoPriorsPodcast
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
