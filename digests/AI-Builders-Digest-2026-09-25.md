@@ -1,0 +1,84 @@
+# AI Builders Digest — 2026-09-25
+
+## X / TWITTER
+
+**OpenAI Codex & ChatGPT lead Thibault Sottiaux** is hyped for DevDay next Tuesday: lots of fun demos, plus many changes he says should shift how people work. He calls it their most ambitious sprint, with Astra unlocking new things unusually fast. Separately, he has gone deep on Voice: calling ChatGPT to talk through work, check email, code, and manage calendar across the full plugin ecosystem, including third-party plugins.
+
+OpenAI Codex & ChatGPT 负责人 Thibault Sottiaux 对下周二的 DevDay 很兴奋：不只是好玩的演示，还有很多会改变工作方式的东西。他说这是他们最野心勃勃的一轮冲刺，Astra 让很多新能力在很短时间里变成可能。另外他已深度依赖 Voice：打电话给 ChatGPT 聊工作、查邮件、写代码、管日历，并贯通整个 plugin 生态（含第三方插件）。
+
+https://x.com/thsottiaux/status/2102996313780736363
+https://x.com/thsottiaux/status/2102814202117411196
+
+**Vercel CEO Guillermo Rauch** broke successful agents into three parts: Brain (model + harness), Hands (tools, computer, browser), and Files (memories, skills, repos). The easy path is one stateful Mac Mini running all day; the cloud path splits them for cost, reliability, security, and auditability. Vercel is shipping Drives as the missing storage piece beside Sandbox: an attachable external disk so jobs like nightly memory consolidation can read/write files without booting the full agent computer. Separately, on ShellPerfBench, Opus 5.5 found shell-startup optimizations other models missed, and he urges people to let agents tune .zshrc and friends.
+
+Vercel CEO Guillermo Rauch 把成功的 agent 拆成三块：Brain（model + harness）、Hands（tools / computer / browser）、Files（memories / skills / repos）。省事做法是一台全天开着的 stateful Mac Mini；上云则要拆开，才能兼顾成本、可靠性、安全和可审计。Vercel 在 Sandbox 之外推出 Drives，补上缺失的存储层：可按需挂载的“外置磁盘”，让夜间 memory consolidation 这类任务不必启动完整 agent 电脑就能读写文件。另外在 ShellPerfBench 上，Opus 5.5 挖到了其他模型漏掉的 shell 启动优化，他建议让 agent 去改 .zshrc 一类配置。
+
+https://x.com/rauchg/status/2102820148629614685
+https://x.com/rauchg/status/2102947745132924993
+
+**Claude Code lead Boris Cherny** expands the formal-methods loop Claude is running on hairy code: build a model of a tricky state machine or race-prone path, find counter-examples as suspected bugs, reproduce them, then fix the code. It is not whole-repo formal verification yet, just the hairiest parts modeled, checked, and patched. He also points to a blog on how Claude Code and the Desktop app got much faster recently, with techniques other teams can reuse.
+
+Claude Code 负责人 Boris Cherny 补充了 Claude 在难搞代码上跑的形式化方法闭环：先为棘手状态机或易出竞态的路径建模，找 counter-example 当疑似 bug，复现，再改代码。还不是整仓形式化验证，而是先把最难的部分建模、检查并打补丁。他也指向一篇博客，讲最近 Claude Code 与 Desktop app 变快的做法，方便其他团队复用。
+
+https://x.com/bcherny/status/2102898067133595992
+https://x.com/bcherny/status/2102854267782705648
+
+**Meta AI Sr Director Madhu Guru** pushes back on Ben Thompson: consumers do not have one relationship with “doing things.” Browsing clothes can be entertainment; hiring a roofer is misery. Even shopping sometimes wants leisurely browse and sometimes wants instant delivery. He compares skepticism of agents to early-2000s “why buy clothes/TVs online” arguments, and says the latent demand for agents that erase consumer friction (search, reviews, phone tag, insurance, quotes, scheduling) is immense.
+
+Meta AI 高级总监 Madhu Guru 反驳 Ben Thompson：消费者对“做事”没有单一关系。逛街买衣服可以是娱乐；雇屋顶工人多半是受罪。即便购物，有时想慢慢逛，有时想马上送到。他把对 agent 的怀疑类比到 2000 年代初“为什么要网上买衣服/电视”的论调，并认为能抹掉消费者摩擦（搜索、评价、电话拉锯、保险、报价、排期）的 agent，潜在需求巨大。
+
+https://x.com/realmadhuguru/status/2102777931764498536
+
+**Cursor designer Ryo Lu** argues the industry worships efficiency, productivity, and speed: ship faster, merge more, manage more agents, compress every loop. His counter: endless production without deep thinking is empty; AI could be a canvas for strange, personal, impossible things, but too much of it becomes slop factories and fake work. The danger is not that AI makes people lazy, but that it makes them endlessly busy with infinite production before intention, taste, or stillness. The real frontier may be discernment: knowing what not to make, and when the most productive act is sleep, history, friendship, play, or sitting still.
+
+Cursor 设计师 Ryo Lu 认为行业在膜拜效率、生产力与速度：更快发布、更多 merge、管理更多 agent、压扁每个循环。他的反驳是：没有深度思考的无限生产是空的；AI 本可以是做奇怪、个人、不可能之事的画布，却太多沦为 slop 工厂和假装有价值的假工作。危险不是 AI 让人变懒，而是让人无尽忙碌：在找到意图、品味与静止之前，就拥有无限产能。真正的前沿或许是辨识力：知道什么不该做，以及何时最“高效”的事是睡觉、读历史、找朋友、玩耍，或安静坐着。
+
+https://x.com/ryolu_/status/2102933485795369213
+
+**Claude Code builder Thariq** dunks on “Claude one-shot this” posts whose prompts are actually ~10k characters with takes, skills, examples, and API keys. Anthropic is also trying a new post format: in-depth write-ups of how they work, with specific prompts and techniques readers can replicate, and he wants feedback on whether it is useful.
+
+Claude Code builder Thariq 吐槽那些写“Claude one-shot this”的帖子：真实 prompt 往往约 1 万字符，还塞满观点、skills、示例和 API keys。Anthropic 也在试一种新内容形态：深度公开他们怎么工作，给出可复现的具体 prompt 与技巧，并征求读者反馈是否有用。
+
+https://x.com/trq212/status/2102870353781641416
+https://x.com/trq212/status/2102857025206255902
+
+**Box CEO Aaron Levie** amplifies a creative-industry vision: as barriers and costs fall, more films get made, studios take more risks, and new storytelling forms appear, just as animation moved from niche dismissal to culture-defining. Tech shifts expand opportunity; creative skill and taste still matter, and more people can wield them. He also notes Muse and Box are together at last.
+
+Box CEO Aaron Levie 转发并强调一个创意产业判断：门槛与成本下降后，片子会更多、工作室更敢冒险、新叙事形态会出现，就像动画曾被当成小众角落、后来定义文化。技术变迁一再扩大机会；创意技能与品味不会消失，只是更多人能用上。他也宣布 Muse 与 Box 终于走到一起。
+
+https://x.com/levie/status/2102934874470617303
+https://x.com/levie/status/2102915863989075979
+
+**Y Combinator President & CEO Garry Tan** names two simultaneous go-to-market trends for startups: make software that agents want, and use agents to make people want software.
+
+Y Combinator 总裁兼 CEO Garry Tan 点出创业公司获客的两条并行趋势：做出 agent 想用的软件，并用 agent 让人想要软件。
+
+https://x.com/garrytan/status/2102955139875397806
+
+**AI educator / Latent Space builder Swyx** ran Latent Space AINews side by side with GPT-6 Sol and says the gap was night and day. Opus 5.5 is the new default model for AINews going forward: more concise and tasteful reporting, with much less “slopese” than even Opus 5.
+
+AI educator / Latent Space builder Swyx 把 Latent Space AINews 与 GPT-6 Sol 并排跑，说差距判若云泥。此后 AINews 默认模型换成 Opus 5.5：报道更简洁、更有品味，比 Opus 5 也更少 “slopese”。
+
+https://x.com/swyx/status/2102650014552182920
+
+**AI educator Peter Yang** lists Opus 5.5 as smart, fast, fun to talk to, good at writing, friendly on rate limits, and constantly surprising in capability. With a model this good, he says the Claude Code harness still needs great live voice plus browser and computer use (the latter improving), and frames the moment as one lab owning the best model while another owns the best harness.
+
+AI educator Peter Yang 给 Opus 5.5 列了标签：聪明、快、好玩、会写、对 rate limit 友好，且能力不断让人吃惊。模型这么强时，他认为 Claude Code harness 仍需要出色的 live voice，以及 browser + computer use（后者在改善），并把现状概括为一边实验室拥有最好的模型，另一边拥有最好的 harness。
+
+https://x.com/petergyang/status/2102946952740741394
+https://x.com/petergyang/status/2102952201350254667
+
+**SPC general partner Aditya Agarwal** says frequent job-hopping tells you something, and so does low company turnover: a team together 3+ years has much higher throughput and resilience than a newly formed one. Investors and candidates often ask about team size instead of team longevity; AUC for teams is the right metric.
+
+SPC general partner Aditya Agarwal 说，频繁跳槽说明很多事，公司低流动率也说明很多事：一起干了 3 年以上的团队，吞吐与韧性远高于刚组起来的团队。投资人和候选人常问团队规模，却不问团队 longevity；团队的 AUC 才是对的指标。
+
+https://x.com/adityaag/status/2102782451643040074
+
+**Claude (Anthropic)** launched Claude Marketplace to discover tools, agents, and expert partners: add connectors and plugins like Slack and Notion, buy agents and products from companies like Cursor and CrowdStrike, and scale with service partners like Accenture and Deloitte. Builders can list tools, agents, or services on the marketplace.
+
+Claude（Anthropic）上线 Claude Marketplace，用来发现工具、agent 与专家伙伴：可加入 Slack、Notion 等 connector / plugin，购买 Cursor、CrowdStrike 等公司的 agent 与产品，并通过 Accenture、Deloitte 等服务伙伴扩展。开发者也可在 marketplace 上架自己的工具、agent 或服务。
+
+https://x.com/claudeai/status/2102840851538080172
+https://x.com/claudeai/status/2102840855258452037
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
