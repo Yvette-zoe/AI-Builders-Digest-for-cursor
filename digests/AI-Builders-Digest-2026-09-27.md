@@ -1,0 +1,102 @@
+# AI Builders Digest — 2026-09-27
+
+## X / TWITTER
+
+**Claude Code creator Boris Cherny** describes Tag, a proactive Slack agent (not a normal bot): with Opus 5.5 and Fable 5.1 it writes >50% of his PRs daily, does ~100% of his data analysis, and fixes most product feedback and bugs. It is programmable, has memory and connector access, and strong judgement. Example prompts include reacting ✅ when threads resolve, end-to-end bug repro then PR + code-review tags, brainstorming ~100 hypotheses on weird data with deep digs and charts, and building interactive games plus slide decks to explain code.
+
+Claude Code creator Boris Cherny 介绍 Tag，一个主动式 Slack agent（不是普通 bot）：搭配 Opus 5.5 与 Fable 5.1，它每天写他超过 50% 的 PR，承担约 100% 的数据分析，并修掉大部分产品反馈与 bug。它可编程、有 memory、能接 connectors，且判断力很强。示例 prompt 包括线程解决后点 ✅、端到端复现 bug 后提 PR 并 tag 对口团队 review、对异常数据 brainstorm 约 100 个假设并深挖画图、以及做互动小游戏和 slide deck 讲解代码。
+
+https://x.com/bcherny/status/2103538666597691552
+
+**OpenAI Codex & ChatGPT builder Thibault Sottiaux** reports Codex went down, then came back with usage limits reset for all paid users across Codex and ChatGPT work, and notes they keep a spare Codex for outages.
+
+OpenAI Codex & ChatGPT builder Thibault Sottiaux 通报 Codex 曾宕机，恢复后为所有付费用户重置 Codex 与 ChatGPT work 的 usage limits，并提到宕机时他们有一台备用 Codex。
+
+https://x.com/thsottiaux/status/2103620061156290622
+https://x.com/thsottiaux/status/2103637477760311522
+
+**AI educator Peter Yang** stress-tests Muse vs Grok Bot on the same Japan flight itinerary: Muse quoted $1K+ more, and when asked why said it searched Duffel instead of Google Flights. He likes Muse's UI and mascot but questions how smart the underlying model is, arguing that may be intentional if the product is meant to scale to a billion people.
+
+AI educator Peter Yang 用同一条日本行程对比 Muse 与 Grok Bot：Muse 报价高出 $1K+，追问后它说搜的是 Duffel 而不是 Google Flights。他认可 Muse 的 UI 和 mascot，但质疑底层模型不够聪明，并认为若产品要扩到十亿用户，模型不那么强或许是刻意取舍。
+
+https://x.com/petergyang/status/2103693608729932025
+https://x.com/petergyang/status/2103696644558704796
+
+**Claude Code builder Thariq** digs into what "effort" really means and when to change it instead of always using max. His own tests surprised him: he uses effort low more often to stay in the loop, and effort max mainly when he wants zero input or wants to hunt security vulnerabilities. He also points to interactive benchmark and demo explainers on Anthropic's new developer site.
+
+Claude Code builder Thariq 深挖 “effort” 到底是什么、何时该调，而不是永远 max。他自己的测试结果让他吃惊：想保持在 loop 里时更常开 effort low；effort max 基本只用于完全不想插手，或要找安全漏洞。他还指向 Anthropic 新开发者站点上自己做的互动 benchmark 与 demo 讲解。
+
+https://x.com/trq212/status/2103576349499855160
+https://x.com/trq212/status/2103577115010687067
+https://x.com/trq212/status/2103577116445175948
+
+**Replit CEO Amjad Masad** frames the self-driving company as putting business understanding in everyone's hands, and welcomes Omar, Amine, and the Atta team (business analysis and data visualization) to Replit.
+
+Replit CEO Amjad Masad 把 self-driving company 的一部分定义成：让每个人都能理解业务；并欢迎 Omar、Amine 以及做业务分析与数据可视化的 Atta 团队加入 Replit。
+
+https://x.com/amasad/status/2103632415185133992
+
+**Vercel CEO Guillermo Rauch** says they are helping orgs like Klaviyo build agentic deployment platforms: connect every agent (Claude, Codex, Cursor…), configure SSO via the company IdP (Okta, Entra), then let everyone ship securely. He argues the new procurement bar will be how ergonomic a product is for agents, not humans, which is why enterprise SaaS is suddenly shipping CLIs and MCPs; once agents can navigate ontology and data, a long tail of SaaS will be generated rather than bought. Separately he calls the growth of skills (npx skills landing in READMEs everywhere) mind-boggling: "We used to write code, now we write English."
+
+Vercel CEO Guillermo Rauch 说他们在帮 Klaviyo 这类组织搭 agentic deployment 平台：接上每个 agent（Claude、Codex、Cursor…），经公司 IdP（Okta、Entra）配好 SSO，再让全员安全地 ship。他认为新的采购门槛会变成产品对 agent（而不是对人）有多好用，所以企业 SaaS 突然开始补 CLI 与 MCP；一旦 agent 能导航 ontology 和数据，一长串 SaaS 会被生成而不是被买。另外他感叹 skills 增长（npx skills 出现在满网 README）令人震惊：“We used to write code, now we write English.”
+
+https://x.com/rauchg/status/2103564484602384855
+https://x.com/rauchg/status/2103543983557517340
+
+**Box CEO Aaron Levie** argues you cannot automate what you cannot measure, so evals are a gate to enterprise AI diffusion. Enterprises already test deterministic processes in software, but most have no useful way to understand non-deterministic agent work today. Without evals you cannot know what works, what broke, what changed, or what to do more of; all upgrades and deployments sit downstream of good evals. He expects both more domain-specific evals industry-wide and every enterprise needing its own sense of how agents perform in its environment.
+
+Box CEO Aaron Levie 认为你无法自动化你无法度量的东西，因此 evals 是企业 AI 扩散的闸门之一。企业已经能用软件测确定性流程，但大多对今天非确定性的 agent 工作没有有效感知。没有 evals，你就不知道什么有效、什么坏了、什么变了、该加码什么；一切升级与部署都排在好的 evals 之后。他预期行业会出现更多领域专用 evals，而每家企业也需要弄清 agent 在自家环境里的表现。
+
+https://x.com/levie/status/2103629073595728372
+
+**FirstMark VC and MAD Podcast host Matt Turck** on the startup market: so many startups, but investors still chase the same 10–30. That power law was always true, he says, "but probably never to this extent. Hyper power law."
+
+FirstMark VC、MAD Podcast host Matt Turck 谈创业市场：startup 多到夸张，但投资人仍扎堆同一批 10–30 家。他说这种 power law 一直存在，“但大概从未到这个程度。Hyper power law。”
+
+https://x.com/mattturck/status/2103550183506337835
+
+**OpenClaw builder Peter Steinberger** calls sync SQLite access the biggest design mistake when OpenClaw moved to SQLite: fine when one agent reported on Slack or iMessage, painful once one agent may run 50 parallel sessions and the whole team works on it. He has an Astra /goal that has already landed 575 PRs moving work onto async workers, shipping the refactor as they go, and says huge refactors are no longer scary.
+
+OpenClaw builder Peter Steinberger 称把 OpenClaw 迁到 SQLite 时用同步 DB 访问是最大设计失误：当初 agent 只在 Slack 或 iMessage 汇报时还行，一旦一个 agent 可能并行跑 50 个 session、整队都在上面干活就成瓶颈。他用 Astra 设了 /goal，已合入 575 个 PR 把工作迁到 async workers，边推进边上线，并说连大型重构也不再吓人。
+
+https://x.com/steipete/status/2103648679169257737
+
+**Every CEO Dan Shipper** one-shots Opus 5.5 to explain why personal benchmarks matter.
+
+Every CEO Dan Shipper 用 Opus 5.5 一次生成解释：为什么 personal benchmarks 如此重要。
+
+https://x.com/danshipper/status/2103678798827020298
+
+**OpenAI CEO Sam Altman** says there is an extensive ongoing review of agents' internet use during training and evaluation, with published summaries continuing. They have been slower than desired while balancing transparency against petabytes of agent activity logs and work with impacted orgs. Hugging Face remains the most severe event they have seen; disclosure of vulnerabilities found at other companies will be those companies' call.
+
+OpenAI CEO Sam Altman 表示，他们正在对 agents 在训练与评估期间使用互联网做大规模持续审查，并会继续公布摘要。进度慢于预期，因为要在透明度与海量 agent 活动日志、以及和受影响组织协作之间权衡。Hugging Face 仍是他们见过最严重的事件；在其他公司发现的漏洞是否披露，由那些公司决定。
+
+https://x.com/sama/status/2103567198690349362
+
+## PODCASTS
+
+### No Priors: Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee
+
+**The Takeaway:** Sequence Holdings CEO Michael Lee bets that in industries where incumbents hold the real advantages, the winning AI move is not another SaaS wrapper or services engagement, but ownership plus engineer-celebrating culture that can reorganize the company around machines that work 24/7.
+
+**要点：** Sequence Holdings CEO Michael Lee 押注：在 incumbent 真正握有优势的行业里，AI 赢家打法不是再做一个 SaaS 壳或服务项目，而是用所有权，加上以工程师为荣耀人格的文化，把公司按能 24/7 干活的机器来重组。
+
+Lee left public investing (Lone Pine, covering AI since AlphaGo / early transformers) for a permanent holding company that aims for roughly one deal per year. Sequence just announced what the hosts call the largest AI take-private to date: Baldwin, with the Dell family office, at $7.7B. The thesis: ChatGPT-era scaling made clear that AI hits the economy unevenly. Skip restaurants; do not buy outsourced coding shops when Cognition or Anthropic will win; instead acquire incumbents with brand, scale, network effects, or regulatory moats and forge the market leader.
+
+Lee 离开公开市场投资（Lone Pine，从 AlphaGo / 早期 transformer 起覆盖 AI），去做一年大约只做一笔交易的永久控股公司。Sequence 刚宣布被主持人称为迄今最大的 AI take-private：与 Dell family office 一起拿下 Baldwin，交易规模 $7.7B。论点是：ChatGPT 时代的 scaling 说明 AI 对经济的冲击并不均匀。别碰餐厅；别去买外包写代码生意（那是 Cognition 或 Anthropic 的局）；去买有品牌、规模、网络效应或监管护城河的 incumbent，再锻造成市场领导者。
+
+He frames three failed self-refound paths for a Fortune 500: do it yourself (you cannot recruit/retain the talent because your celebrated persona is the investor or operator, not the engineer; Blackstone celebrates capital allocators, Sequence celebrates engineers); hire Accenture/McKinsey/Palantir-style services (wallet share and incrementalism, no power to change org design or incentives); buy SaaS (beta for everyone, and vendors must sell to today's human assembly line, not a reorganized one that does not exist yet). Ownership plus a shared frontier engineering platform is how Sequence claims alignment.
+
+他把 Fortune 500 自救式 refound 的三条路都判失败：自己干（招不到、留不住人才，因为公司荣耀人格是投资人或经营者而不是工程师；Blackstone 荣耀的是配资者，Sequence 荣耀工程师）；雇 Accenture/McKinsey/Palantir 式服务（优化钱包份额与渐进主义，改不动组织设计与激励）；买 SaaS（人人可用的 beta，且厂商只能卖给今天的人肉流水线，卖不了尚不存在的重组形态）。Sequence 宣称用所有权加共享的 frontier engineering 平台来对齐利益。
+
+BankSouth was the first proving ground: start as a services customer via a family connection, then become a permanent minority partner after Fed/OCC approval. Regulation and centralized underwriting were features: clean data, defined rules for agents, and "organizational physics" dense enough that HQ builds amortize across branches. Insurance brokerage fits the same screen: huge premiums, 90% gross retention, carriers pay the broker, startups struggle on relationships rather than price. Lee wants $100B+ outcomes, not ten deals a year; PE's three-year packaging horizon, he argues, will not fund the same depth of tech or let 25-year-old engineers co-underwrite deals.
+
+BankSouth 是第一块试验田：先经家族关系做成服务客户，再在 Fed/OCC 批准后成为永久少数股东。监管与集中式 underwriting 反而是优点：数据干净、规则清晰利于 agent，且 “organizational physics” 够密，总部建设能摊到各分行。保险经纪同屏：保费体量大、约 90% gross retention、钱由 carrier 付给 broker、创业公司难在关系而非价格上竞争。Lee 要的是 $100B+ 结果，不是一年十笔；他认为 PE 三年包装退出的时间观，养不起同等深度的技术投入，也不会让 25 岁工程师共同 underwrite 交易。
+
+Memorable line: "In a world where you believe that alpha comes from engineering and AI, you need to create a culture whereby the celebrated persona is the engineer."
+
+最抓人的一句："In a world where you believe that alpha comes from engineering and AI, you need to create a culture whereby the celebrated persona is the engineer."
+
+https://www.youtube.com/@NoPriorsPodcast
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
