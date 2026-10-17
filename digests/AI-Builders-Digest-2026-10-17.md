@@ -1,0 +1,56 @@
+# AI Builders Digest — 2026-10-17
+
+## X / TWITTER
+
+**Anthropic Claude builder Boris Cherny** says Claude models have made significant progress on prompt injection over the last few years, and that as agents do more work the industry urgently needs to solve it. He is partnering with Gray Swan to host a competition and wants the community to find what still breaks.
+
+Anthropic Claude builder Boris Cherny 说，过去几年 Claude 模型在 prompt injection 上已有显著进展；随着 agent 承担更多工作，整个行业急需把这个问题真正解决。他正与 Gray Swan 合作举办竞赛，希望社区挖出仍会被打穿的点。
+
+https://x.com/bcherny/status/2110791698611855624
+
+**OpenAI Codex product lead Nan Yu** argues that taste does not mean aesthetic taste: that is the shallowest definition, and uninteresting because it is so common. Real taste, in his framing, sits elsewhere than surface visual judgment.
+
+OpenAI Codex product lead Nan Yu 认为 taste 不等于审美品味：那是最浅的定义，也因为太常见而乏味。在他的框架里，真正的 taste 不在表层视觉判断上。
+
+https://x.com/thenanyu/status/2110730151222980849
+
+**Box CEO Aaron Levie** celebrates Meta's Muse open-weights model as a big step for US open source: enterprises can mix frontier models for orchestration and hard tasks with cheap, tailored post-trained models for repeatable workflows, which he says will further accelerate AI diffusion and raise token consumption across the stack. Separately, he argues that moving from chat-with-agents to spinning up background agents that do useful work is probably 100X to 1000X more token use than today, because most knowledge work is rate-limited by moving data, reviewing documents, scanning code and logs, and researching clients. Chatbots only sped up the tasks humans stay in the loop for; the next step is handing harder problems, then parallel agent slices, then swarming an arbitrary number of agents with a goal and saying come back when done, for net-new work like security, QA, risk review, and audits, constrained mainly by having enough compute.
+
+Box CEO Aaron Levie 称赞 Meta 的 Muse open-weights 模型是美国开源的重要一步：企业可以把 frontier 模型用于编排与高难任务，再用廉价、定制的 post-trained 模型跑可重复工作流，这会进一步加速 AI 扩散，并抬高整条栈的 token 消耗。另一条长文里，他认为从“跟 agent 聊天”转向“后台拉起一堆 agent 去做有用的事”，token 用量大概会是今天的 100X 到 1000X，因为多数知识工作仍受制于搬数据、审文档、扫代码与日志、查客户信息。Chatbot 只是加快了人仍在环内的那些步骤；下一步是把更难的问题交给 agent，再并行切分任务，最终对任意规模的 agent swarm 说“目标达成再回来”，覆盖安全、QA、风险审查、审计等净新增工作，瓶颈主要变成算力够不够。
+
+https://x.com/levie/status/2110787013809222141
+https://x.com/levie/status/2110622982762803449
+
+**Y Combinator President & CEO Garry Tan** flags that open-weight models are rising.
+
+Y Combinator President & CEO Garry Tan 指出 open-weight 模型正在抬头。
+
+https://x.com/garrytan/status/2110838867213668587
+
+**Every CEO Dan Shipper** satirizes shallow interpretability hype: reading about polysemanticity makes people think alignment is untangling superposition, then a neuron that lights up for the Eiffel Tower is treated as progress toward aligning a superintelligence, until you realize recognizing France does not tell you what the model is planning.
+
+Every CEO Dan Shipper 讽刺浅层 interpretability 热潮：刚读完 polysemanticity，就以为 alignment 等于拆开 superposition；然后一个对埃菲尔铁塔亮起的 neuron 被当成对齐超级智能的进展，直到你意识到“认出法国”并不能告诉你模型在计划什么。
+
+https://x.com/danshipper/status/2110831666587713810
+
+**South Park Commons GP Aditya Agarwal** strongly believes Goodfire may be one of the most important companies out of SPC, because it treats interpretability and alignment as engineering problems rather than pure research theater.
+
+South Park Commons GP Aditya Agarwal 强烈认为 Goodfire 可能是 SPC 走出的最重要公司之一：它把 interpretability 与 alignment 当成工程问题来推进，而不是纯研究表演。
+
+https://x.com/adityaag/status/2110779602453066224
+
+## PODCASTS
+
+### Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)
+
+**The Takeaway:** Reliable automation needs machine-native models that output calibrated decisions and probabilities into software, not chatty text generators whose RLHF polish warps expectations while remaining 95% Einstein and 5% Mr. Bean without saying which mode is on.
+
+**要点：** 可靠自动化需要的是 machine-native 模型：把校准过的决策与概率写进软件，而不是靠 RLHF 抛光、抬高期望、却仍是“95% Einstein、5% Mr. Bean”且不告诉你此刻是哪一态的文本生成器。
+
+The MAD Podcast with Matt Turck sits down with TypeSafe CEO Diogo Almeida one month after Jev's launch, amid a giant Series A narrative, copycats from Cloudflare to Databricks to Microsoft's "decision" category, and claims of huge usage. Almeida's leading indicator is not vanity stats but builders inventing apps they previously skipped because AI was too expensive: intelligence per dollar, not intelligence per second, is what makes the "Jevolution" unstoppable. He spent two years in stealth because AI overpromises and underdelivers; the launch worked by underpromising then letting people play. On what Jev is: not ChatGPT++. It is machine-native AI for software. System One versus System Two is an implementation detail; LLMs with latent reasoning can do fragile System Two, but AI is strong at System One, and throwing that away for "System Two or bust" is a mistake. Software got powerful by composing reliable AND/OR boxes; AI should become composable the same way, via smart if-statements and classifiers that return probabilities so developers set thresholds (Disney refusals vs Character.AI roleplay). Being called a classifier is a compliment: Facebook, TikTok, and Google run on classifiers as the interface that puts intelligence into branching code. Almeida, an RLHF co-inventor, says RLHF made models chat-pleasing and stylistically safe, raising human expectations without delivering automation; RLVR crushes benchmarks but stays jagged and stochastic. TypeSafe's RLCD / machine-native training plus in-house data shapes a different task. Famous line: "95% Einstein, 5% Mr. Bean. And if it doesn't tell you when it's the Mr. Bean, then how are you gonna automate anything?" Another: "We're building prod, not god." Copycats can match the interface in a week (he thought his own project would take a week too); reliability is the hard part. Benchmarks "really hurt users," especially those who cannot tinker. Name Jev nods to Jevons paradox: cheaper intelligence inside software should expand usage like semiconductors, a market separate from text LLMs. He doubts recursive self-improvement (Amdahl's law, neural architecture search deja vu) but thinks the automation-flavored AI winter is less likely now if reliable System One intelligence lands in every software branch.
+
+The MAD Podcast with Matt Turck 在 Jev 上线约一个月后采访 TypeSafe CEO Diogo Almeida：彼时正值巨额 Series A 叙事、Cloudflare / Databricks / Microsoft “decision” 类跟风，以及夸张用量传闻。Almeida 看重的领先指标不是虚荣数字，而是 builder 开始做以前因 AI 太贵而不愿做的 app：真正让 “Jevolution” 停不下来的是 intelligence per dollar，不是 intelligence per second。团队隐身两年，是因为 AI 普遍 overpromise、underdeliver；上线靠 underpromise，再让人亲手玩起来。Jev 不是 ChatGPT++，而是给软件用的 machine-native AI。System One / System Two 只是实现细节；带 latent reasoning 的 LLM 能做脆弱的 System Two，但 AI 本来就擅长 System One，为了 “System Two or bust” 丢掉它是错的。软件靠可组合、可靠的 AND/OR 盒子变强；AI 也该变成同样可组合的东西：智能 if 语句与 classifier，返回概率让开发者设阈值（Disney 拒答 vs Character.AI 角色扮演）。被人叫 classifier 是夸奖：Facebook、TikTok、Google 都靠 classifier 把智能塞进分支代码。作为 RLHF 共同发明人之一，Almeida 说 RLHF 让模型讨人喜欢、风格安全，抬高了人类期望却没兑现自动化；RLVR 横扫 benchmark，但仍 jagged、随机。TypeSafe 用 RLCD / machine-native 训练与自建数据定义另一种任务。名句：“95% Einstein, 5% Mr. Bean. And if it doesn't tell you when it's the Mr. Bean, then how are you gonna automate anything?” 另一句：“We're building prod, not god.” 跟风者一周就能抄到接口（他自己起初也以为这项目只要一周）；难的是可靠性。Benchmark “really hurt users”，尤其是没时间自己试的人。名字 Jev 呼应 Jevons paradox：软件里更便宜的智能会像半导体一样放大用量，这是与文本 LLM 不同的市场。他怀疑 recursive self-improvement（Amdahl's law、神经架构搜索的deja vu），但若可靠的 System One 智能进入每一条软件分支，自动化意义上的 AI 寒冬就不那么容易再发生。
+
+https://www.youtube.com/@DataDrivenNYC/videos
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
