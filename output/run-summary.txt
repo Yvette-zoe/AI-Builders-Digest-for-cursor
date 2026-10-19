@@ -1,0 +1,8 @@
+Date (Asia/Shanghai): 2026-10-19
+Feeds: x generatedAt 2026-10-18T06:38:12.951Z (15 tweets / 8 builders); podcasts generatedAt 2026-10-18T06:38:49.604Z (1 episode)
+Podcast: The MAD Podcast / Andy Pavlo What Happens When Billions of AI Agents Hit Your Database? guid 8a1c6546-cdae-4bef-883d-56cb734967df
+Included tweets: Sottiaux agent tax loop; Yang Google audit prompt + Claude Code app; Nan Yu JS frameworks; Masad model-agnostic/OpenAI preferred; Levie software-everywhere thesis
+Skipped fluff/thin: Swyx channel analytics replies; Sottiaux Done/Landing; Yang StarCraft QT; Rauch end-product QT; Nikunj VC-stack joke + nyc
+Podcast errors note: Dyna-2 Jason Ma Dyna Robotics transcript 404 (not in podcasts[])
+Resend: HTTP 200 id 01a151b0-7d8e-7d24-b448-86b5c9cc7e6e
+To: 569617786@qq.com
