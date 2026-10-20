@@ -1,0 +1,7 @@
+Date (Asia/Shanghai): 2026-10-20
+Feeds: x generatedAt 2026-10-19T06:54:43.642Z (21 tweets / 11 builders); podcasts generatedAt 2026-10-19T06:54:47.474Z (1 episode, already remixed)
+Podcast: skipped known guid 994123ec-c395-11f1-b01e-fff03490a570 (No Priors / ReflectionAI CEO Misha Laskin Beam Great American Open Model; remixed 2026-10-11)
+Included tweets: Swyx data engineers > AI engineers hiring; Sottiaux OpenCode recovery + Daybreak Blue; Yang work-trial hiring; Thariq vibe-code open-source games; Rauch deepseek-v4.1-flash on AI Gateway; Levie agent swarms / compute variable; Tan AsideAI prediction; Nikunj reatools still sleeping
+Skipped fluff/thin: Swyx side-event QT + meme QT; Sottiaux new-domain hype + link-only; Yang comedy + skill teaser without context; Rauch TLD economy jokes; Turck France vacation meme; Steinberger AI;DR; Shipper reading-list link
+Resend: HTTP 200 id 01a156d5-f203-7c5f-a573-7f657afb6d9d
+To: 569617786@qq.com
