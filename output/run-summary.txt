@@ -1,0 +1,8 @@
+Date (Asia/Shanghai): 2026-10-21
+Feeds: x generatedAt 2026-10-20T06:41:44.391Z (21 tweets / 11 builders); podcasts generatedAt 2026-10-20T06:41:49.395Z (1 episode, already remixed)
+Podcast: skipped known guid flightcast:01M4BDW19ZFPED9TQ4S5DP60PY (AI & I by Every / Why Every Traded Personal Agents for One Company Agent; remixed 2026-10-09)
+Podcast errors note: AlphaFold / Pushmeet Kohli & Sal Candido transcript 404 (not in podcasts[])
+Included tweets: Thariq agent multitask slow-down / P0; Rauch libfx HTML artifact builder OSS + ~1000 tok/s; Levie applied-AI domain differentiation rises with better models; Tan multiplayer agents as group chat / Wabi; Nikunj Wabi 2.0 paradigm review; Shipper Quinten+Ajay AI storytelling consumer breakout
+Skipped fluff/thin: Swyx Bhagavad-Gita X/chat parody; Sottiaux Day15 cooking/reset; Yang Netflix/movie + visual QT; Zara documentary theater; Nikunj Tenzing TV + peptide-factory VC satire; Aditya SPC Trae Stephens event promo; Shipper thin ideographic/story-in-3-parts links
+Resend: HTTP 200 id 01a15bfc-f922-7c5e-86c5-1796d0ddcdcb
+To: 569617786@qq.com
