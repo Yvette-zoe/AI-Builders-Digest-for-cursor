@@ -1,0 +1,7 @@
+Date (Asia/Shanghai): 2026-10-22
+Feeds generatedAt: 2026-10-21T06:42:56.495Z (x) / 2026-10-21T06:43:00.609Z (podcasts)
+X: 31 tweets across 15 builders; remixed 10 builders (substantive)
+Podcasts: 0 episodes (empty podcasts[]); omitted PODCASTS
+Podcast errors (transcript only, not in feed): Programmable Data Center / Evan Conrad SF Compute 404; Mecka Josh Gao Robot Data Factory 500
+Email: sent via Resend id 01a16121-0011-778d-9378-41d7529c1013 to 569617786@qq.com
+Subject: AI Builders Digest — 2026-10-22
