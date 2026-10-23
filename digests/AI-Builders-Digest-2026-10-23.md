@@ -75,7 +75,7 @@ https://x.com/adityaag/status/2112923959176106056
 
 ## PODCASTS
 
-**AI & I by Every — How a Frontier Team Can Help Your Company Keep Up With AI**
+**AI & I by Every: How a Frontier Team Can Help Your Company Keep Up With AI**
 
 **The Takeaway:** Keep a dedicated frontier team so the company can track model change without forcing every employee to choose between shipping and chasing shiny tools.
 
