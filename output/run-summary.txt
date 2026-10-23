@@ -1,0 +1,7 @@
+Date (Asia/Shanghai): 2026-10-23
+Feeds generatedAt: 2026-10-22T06:42:53.340Z (x) / 2026-10-22T06:43:00.934Z (podcasts)
+Tweets in feed: 36 across 17 builders
+Podcasts in feed: 1 new (AI & I by Every / How a Frontier Team Can Help Your Company Keep Up With AI; guid flightcast:01M5FJNTDCZPD6VSAKD7W6S821)
+Email: sent via Resend id 01a16649-0caa-70f9-a596-842a72bf7d16 to 569617786@qq.com
+Subject: AI Builders Digest — 2026-10-23
+Skipped fluff/thin: Swyx ratio/quant/links; Yang Edgerunners/newsletter/1Password; Nan Yu instrumentation QT; Google Labs Dreambeans Part 2; Masad prompt->corporation QT; Tan Prop 40 politics; Nikunj kids + internet-trust QT; Agarwal PHP rant + SPC portfolio QT.
