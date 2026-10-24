@@ -1,0 +1,9 @@
+Date (Asia/Shanghai): 2026-10-24
+Feeds generatedAt: 2026-10-23T06:42:39.698Z (x) / 2026-10-23T06:42:49.023Z (podcasts)
+X: 38 tweets across 18 builders
+Podcasts in feed: 1 (guid d7ae4536-c437-11f1-9011-633961538ee5 Training Data / David Silver & Lasse Espeholt — already remixed 2026-10-15; PODCASTS omitted)
+Email: sent via Resend id 01a16b6e-74a2-7437-8c8d-18026eb106de to 569617786@qq.com
+Subject: AI Builders Digest — 2026-10-24
+Covered: Cherny Agent Skills → Agentic AI Foundation; Claude Google Cloud GA + Fast mode/Skills API + auto mode default; Sottiaux Day18 Decisions API GA / OpenResponses LF / Uber Codex; Swyx Opus 5.5 estimator + bug attitude; Rauch password-4 / kill static creds OIDC / Generative UI AI Gateway; Levie obscurity dead; Albert Duet for SMBs; Tan Aside Browser + SaaS hit; Turck Mistral Le Chonk + everyone-vs-everyone; Masad Replit vuln protection; Agarwal robotics π0.7 coaching; Nikunj seed→A squeeze.
+Skipped fluff/thin: Swyx pipeline ETA; Yang dad podcast / mom fax / security promo video; Nan Yu nomnom; Madhu Guru generic career advice; Google Labs Dreambeans Part 3; Tan SF politics; Zara thin QT; Nikunj Halloween / opaque joke; Shipper unprecedented QT.
+Podcast errors (not in podcasts[]): Erik Bernhardsson Modal 404; Anekha Sokhal Moshi 404; Pierre Stock Mistral transcript 500; CrowdStrike George Kurtz 500; Tenex AI-native SDLC 404.
