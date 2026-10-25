@@ -1,0 +1,7 @@
+AI Builders Digest — 2026-10-25
+Timezone date: Asia/Shanghai 2026-10-25
+Feeds: x generatedAt 2026-10-24T06:39:06.255Z (28 tweets / 14 builders); podcasts generatedAt 2026-10-24T06:39:41.667Z (1 episode)
+Included builders: Sottiaux, Thariq, Masad, Rauch, Levie, Shipper, Agarwal, Claude
+Skipped fluff/thin/politics: Swyx VC/corgi jokes; Yang time>money; Thariq Gmail; Tan SF politics; Zara link-only + site event; Nikunj widget/Duet QT; Steinberger phone; Agarwal math/SPC thin links
+Podcast: NEW No Priors / Cloudflare CTO Dane Knecht (guid 1b967280-ce7b-11f1-8a29-072c10b8d7bc); used JSON url channel page
+Resend: HTTP 200 id 01a17095-ed4e-7544-bdca-c2da9541fce5 to 569617786@qq.com
