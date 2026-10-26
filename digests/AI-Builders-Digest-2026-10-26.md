@@ -1,0 +1,50 @@
+# AI Builders Digest — 2026-10-26
+
+## X / TWITTER
+
+**Vercel CEO Guillermo Rauch** says he oddly loves models' engineering vernacular (gate, evidence, culprit, durable, provenance, contract), much of it rooted in debugging and understanding existing systems as detective or auditor work. He wonders what the minimum viable English for productive AI work really is, noting ASD-STE100 Simplified Technical English has about 900 approved words and suspecting far fewer are needed. Separately he frames guiding AI as the #0 skill he looks for: sometimes you over-guide and the model already knows better; sometimes you under-guide and it goes off-track, carries the wrong biases, or misses context.
+
+Vercel CEO Guillermo Rauch 说他莫名喜欢模型的工程黑话（gate、evidence、culprit、durable、provenance、contract），很多源自调试与理解既有系统时的侦探 / 审计角色。他好奇做 AI 工作真正需要的「最小可用英语」是什么：ASD-STE100 Simplified Technical English 大约有 900 个核准词，他怀疑实际需要得更少。另外他把「如何引导 AI」视为他最看重的 #0 技能：有时你 over-guide，模型其实比你更懂；有时你 under-guide，它会跑偏、带上错误偏见，或漏掉 context。
+
+https://x.com/rauchg/status/2114164830403989880
+https://x.com/rauchg/status/2114085432749347086
+
+**Box CEO Aaron Levie** expects roughly 1,000X more tokens to flow through cyber agents soon. As cyber risk surface area grows, keeping up with new risks is already near-impossible for most companies, not only large ones that barely had the resources before. He sketches agent swarms that fan out across security tools, test attack permutations, read logs, and score enterprise data for risk, a capability that only recently became real with long-running agents, computer use, and deeper cyber training of models. He calls this a large opportunity across identity, firewall, network, code scanning, and data protection, and one reason to stay optimistic about the offense-defense balance.
+
+Box CEO Aaron Levie 预计很快会有大约 1,000 倍的 token 流过 cyber agents。随着网络风险面扩大，跟上新风险对多数公司已近乎不可能，不只是原本就资源吃紧的大企业。他勾勒能横向铺开的 agent swarms：调用各类安全工具、测试攻击组合、读日志、评估企业数据风险；这只有在长跑 agent、computer use，以及模型在 cyber 上训练足够深之后，才在近几个月真正可用。他认为这是 identity、firewall、network、code scanning、data protection 等整条安全栈的大机会，也是对攻防平衡仍可乐观的一个理由。
+
+https://x.com/levie/status/2114187326406766604
+
+**Designer Ryo Lu (Cursor, Notion, Stripe)** argues that learning used to come from struggling: try, fail, climb the wall, ask for help, start over, until craft became like water. With agents, results appear quickly and look complete, so it is easy to get output without understanding how it works, and to miss questions you never learned to ask. He worries that always-available agents make it easier to avoid the uncomfortable beginning of working with people, and that each person ending up in a private agent world can feel like comfortable confinement. He wants tools that push people back into unfinished shared work with other humans, not fewer reasons to leave the screen. Full essay also at https://ryo.lu/journal/struggle-together
+
+设计师 Ryo Lu（Cursor、Notion、Stripe）认为，过去的学习来自挣扎：试、败、翻墙、求助、重来，直到手艺变得像水一样自然。有了 agent，结果来得快、看起来完整，人很容易在不理解原理的情况下拿到产出，也容易错过那些从未学会追问的问题。他担心随时在线的 agent 让人更容易回避与人协作时那种不舒服的开端；每人困在自己的 agent 小世界里，也可能只是舒适的禁锢。他希望工具把人推回与他人一起做未完成之事，而不是给人更少离开屏幕的理由。全文亦见 https://ryo.lu/journal/struggle-together
+
+https://x.com/ryolu_/status/2114187405251219954
+https://x.com/ryolu_/status/2114187660734668884
+
+**AI educator Peter Yang** calls it a huge bummer for Claude users that Anthony and Thariq, two of the people best at listening to users, are leaving that orbit. He initially doubted the report, then says he should not have.
+
+AI educator Peter Yang 认为，Anthony 与 Thariq（两位最擅长倾听用户的人）离开，对 Claude 用户是重大损失。他起初不太信，随后说自己不该怀疑。
+
+https://x.com/petergyang/status/2114001125636768121
+
+**Latent Space / smol.ai founder Swyx** says they are hiring writers, reviewers, and reporters for a new Latent Space Pod editorial team (via ricmac and adlinzainal), and that part-time plus one-off guest posts are welcome.
+
+Latent Space / smol.ai founder Swyx 表示正在为新的 Latent Space Pod 编辑团队招聘 writers、reviewers 与 reporters（可找 ricmac 与 adlinzainal），并欢迎兼职与一次性 guest posts。
+
+https://x.com/swyx/status/2114145315196711194
+https://x.com/swyx/status/2114149330135519730
+
+**FPV Ventures partner Nikunj Kothari** points to a clearer framing of what he meant by evolving from context to harnesses to judgement, and invites builders in that space to jam on product ideas.
+
+FPV Ventures partner Nikunj Kothari 指出一篇更清楚的表述，说明他所说的从 context 演进到 harnesses 再演进到 judgement 是什么意思，并邀请在这个方向上做过产品的人一起聊想法。
+
+https://x.com/nikunj/status/2113994081345126486
+
+**SPC General Partner Aditya Agarwal** says one weird effect of being max AI-pilled is treasuring IRL time with family and friends more: dance, take kids to the park, let the agents cook (or not), and celebrate humans.
+
+SPC General Partner Aditya Agarwal 说，被 AI 深度影响后的一个奇怪副作用是更珍惜与家人朋友的线下时间：跳舞、带孩子去公园、让 agent 去跑（或不跑），但务必庆祝人类。
+
+https://x.com/adityaag/status/2114135237806760097
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
