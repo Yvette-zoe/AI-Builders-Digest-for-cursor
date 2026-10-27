@@ -1,0 +1,7 @@
+AI Builders Digest — 2026-10-27
+Timezone date: Asia/Shanghai 2026-10-27
+Feeds: x generatedAt 2026-10-26T06:55:24.342Z (14 tweets / 9 builders); podcasts generatedAt 2026-10-26T06:55:27.744Z (1 episode)
+Included builders: Levie (enterprise security + agent swarms), Yang (Claude/HyperFrames shorts style), Nan Yu (reputation-before-data + Duo defaults), Sottiaux (ChatGPT web appearance), Zara (daily video system)
+Skipped fluff/thin: Swyx ratio likes; Sottiaux Day21 reset; Yang taste/snacks; Turck VC metaverse meme + neighborhood; Nikunj golden hour; Shipper link-only
+Podcast: SKIP already-remixed No Priors / OpenAI President Greg Brockman Changing Physics of Cybersecurity and Drug Development (guid 6fed676e-c84d-11f1-a40c-678dc1ca0b76; remixed 2026-10-18)
+Resend: HTTP 200 id 01a17ae0-0d0a-794b-acd4-f76ddc9fb69f to 569617786@qq.com
