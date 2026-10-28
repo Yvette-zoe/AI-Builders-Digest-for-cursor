@@ -1,0 +1,7 @@
+Date (Asia/Shanghai): 2026-10-28
+Feeds generatedAt: 2026-10-27T06:44:38.100Z (x) / 2026-10-27T06:44:45.267Z (podcasts)
+Tweets: 32 across 17 builders
+Podcasts: 1 already-remixed (AI & I / Matt Hartman Factorial; guid flightcast:01M4WXZJC42R6K30JBFDV56TDM) — PODCASTS omitted
+Also: transcript error for "An Eval for AI Scientists..." (Ian Quigley) — not in podcasts[]
+Email: Resend id 01a18007-4163-704a-8d81-94fa8e054e22 to 569617786@qq.com
+Subject: AI Builders Digest — 2026-10-28
