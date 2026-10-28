@@ -1,0 +1,79 @@
+# AI Builders Digest — 2026-10-28
+
+## X / TWITTER
+
+**OpenAI CEO Sam Altman** announces 6.1 Terra is live, saying it is strong across many tasks and that OpenAI is especially excited about a new era of computer use.
+
+OpenAI CEO Sam Altman 宣布 6.1 Terra 已上线，称它在很多任务上都表现很好，而 OpenAI 尤其兴奋的是 computer use 的新阶段。
+
+https://x.com/sama/status/2114818620782248024
+
+**OpenAI Codex & ChatGPT Thibault Sottiaux** frames Day 22 around Terra returning as OpenAI's first model that is significantly better at writing, personality, and nuanced request understanding. He says it packs a punch across the board, is very good at computer use, and gives 2X more usage than 6.1 Sol across API and subscriptions.
+
+OpenAI Codex & ChatGPT Thibault Sottiaux 把 Day 22 聚焦在 Terra 回归：这是 OpenAI 第一款在写作、个性与细腻理解请求上明显更强的模型。他说它全面能打，computer use 很强，并且在 API 与订阅上都给出相对 6.1 Sol 两倍的 usage。
+
+https://x.com/thsottiaux/status/2114800277677092936
+
+**Vercel CEO Guillermo Rauch** ships cpu-chat, reproducing OpenAI's findings on covert agent communication over shared CPUs. On a generic host with 2+ Firecracker microVMs and no internet, he chats via CPU contention, cache eviction timing, and DRAM bandwidth contention across multiple CPUs, defeating Firecracker's usual hardening advice. His takeaway: if shared hardware is involved, agents can likely whisper to each other with decent latency. He stresses this is not a Meltdown/Spectre-style side channel that steals secrets (the class Vercel Sandbox mitigates), and that production monitoring makes it harder. He also notes OpenAI and Anthropic models refused the work while open-weight models did it, and worries lab refusals may block the analysis needed to build secure sandboxes.
+
+Vercel CEO Guillermo Rauch 发布 cpu-chat，复现 OpenAI 关于共享 CPU 上 agent 隐蔽通信的发现。在通用主机、2+ 个无外网 Firecracker microVM 上，他通过 CPU 争用、cache eviction 时序和 DRAM 带宽争用跨多 CPU 聊天，并绕过 Firecracker 常见加固建议。他的结论：只要涉及共享硬件，agent 就很可能以不错的延迟互相「耳语」。他强调这不是 Meltdown/Spectre 那种可偷机密的 side-channel（Vercel Sandbox 针对的是后者），生产环境监控也会更难打成。他还指出 OpenAI 与 Anthropic 模型拒绝做这项工作，而开源权重模型完成了，并担心实验室的拒绝会妨碍构建安全沙箱所需的分析。
+
+https://x.com/rauchg/status/2114770919436808572
+
+**Box CEO Aaron Levie** reads Anthropic's S-1 through one key stat: the average Fortune 500 Anthropic customer spends less than 0.1% of expenses on Anthropic. Even if that asymptotes, he sees a credible path to 10-50X higher spend at still only 1-5% of total expenses, far below what many startups already pay. That gap shows how early enterprise AI still is: today's spend is mostly coding and broad productivity, while the real jump comes when companies rewire processes for agents doing background work, data processing, coding/bio/cyber fan-out, and unprompted workflows that burn far more tokens with clearer ROI.
+
+Box CEO Aaron Levie 从 Anthropic S-1 里抓住一个关键数字：Fortune 500 客户平均把不到 0.1% 的开支花在 Anthropic 上。即便会趋于某个上限，他仍认为有空间涨到 10-50 倍，也只占到总开支的 1-5%，远低于很多创业公司已经在花的比例。这暴露出企业 AI 仍极早期：今天的开支主要是编程和广义生产力，真正跃迁要等企业为 agent 重写流程，让后台任务、数据处理、编程/生物/网络安全 fan-out，以及非人工触发的工作流成为更大、更贴近 ROI 的 token 消耗。
+
+https://x.com/levie/status/2114761816199098587
+
+**FPV Ventures partner Nikunj Kothari** digs into Anthropic's S-1 compute contracts with Opus 5.5. At June 30, Anthropic showed $265.6B purchase commitments plus $321.4B leases not yet started ($587B subtotal over years, some conditional). Google and Amazon deals require minimum spend regardless of usage, while SpaceXAI agreements can be canceled on 90 days' notice after early-2027 lockups. Anthropic Direct splits chips, buildings, power, and ops so billing can start before compute is usable; Broadcom's $42B facility settles equipment rent via notes at 9% (13% in breach periods) with discounted conversion after IPO. Revenue per dollar of compute/infra rose from $0.57 in Q2 2025 to $2.08 in Q2 2026, even as ~80% of H1 revenue stayed consumption-based against multi-year compute commitments.
+
+FPV Ventures partner Nikunj Kothari 用 Opus 5.5 深挖 Anthropic S-1 的算力合同。截至 6 月 30 日，Anthropic 有 $265.6B 采购承诺，外加尚未开始的 $321.4B 租赁，小计约 $587B（跨多年，部分有条件）。Google 与 Amazon 合同要求不论用量的最低支出，而 SpaceXAI 协议在 2027 年初锁定期结束后可 90 天通知取消。Anthropic Direct 把芯片、楼宇、电力与运维拆开，可能在算力可用前就开始计费；Broadcom 的 $42B facility 用票据结算设备租金，利率 9%（违约期 13%），IPO 后可折价转股。算力/基础设施每美元对应收入从 2025 Q2 的 $0.57 升到 2026 Q2 的 $2.08，同时 H1 约 80% 收入仍是用量制，却对着多年期算力承诺。
+
+https://x.com/nikunj/status/2114761204333998427
+
+**Every CEO Dan Shipper** highlights Anthropic S-1 numbers that jumped out: revenue up 1,300% YoY in 1H 2026, GAAP operating profitable, 85% gross margin, 900% revenue retention, and 80% of revenue from models released in the last six months.
+
+Every CEO Dan Shipper 抓出 Anthropic S-1 里最扎眼的数字：2026 上半年收入同比 +1,300%，GAAP 经营盈利，毛利率 85%，收入留存 900%，以及 80% 收入来自过去六个月发布的模型。
+
+https://x.com/danshipper/status/2114714881312305542
+
+**Replit CEO Amjad Masad** argues firm architecture barely changed for centuries until AI agents, and that the next shape is the self-driving company: humans exercise judgment while agents execute most work. At Replit he is building what they call the Agent Habitat, quoting Marc Andreessen on how every major computing revolution starts chaotic before businesses learn to harness it. Separately he jokes that when OpenAI asked three scientific communities how to release discoveries, mathematicians said just post it, computer scientists wanted open source plus conference funding, and physicists told the nerds to leave it to them.
+
+Replit CEO Amjad Masad 认为公司组织架构几百年几乎没变，直到 AI agents 出现；下一形态是 self-driving company：人行使判断，agent 执行大部分工作。他在 Replit 称之为 Agent Habitat，并引用 Marc Andreessen：每次重大计算革命都先陷入混沌，企业才学会驾驭。另外他调侃 OpenAI 问三个科学共同体如何发布发现时，数学家说直接贴出去，计算机科学家要开源还要赞助会议，物理学家则让「书呆子」别管。
+
+https://x.com/amasad/status/2114760898225299721
+https://x.com/amasad/status/2114890745471545419
+
+**AI educator Peter Yang** says the near future is people tagging an agent to do online work instead of reading or clicking themselves, calling bot an early signal. He is more excited about that class of capability than yet another personal agent that manages email.
+
+AI educator Peter Yang 认为不久后人们会直接 @ agent 去做线上事务，而不是自己阅读或点击，并把 bot 视为早期信号。相比又一个管邮件的 personal agent，他更兴奋这类能力。
+
+https://x.com/petergyang/status/2114927195332460940
+https://x.com/petergyang/status/2114905151572263242
+
+**OpenClaw builder Peter Steinberger** tested bun's AOT compiler over the weekend and reports performance up 2-3x with memory use less than half.
+
+OpenClaw builder Peter Steinberger 周末测试了 bun 的 AOT compiler，称性能提升 2-3 倍，内存占用不到一半。
+
+https://x.com/steipete/status/2114879798434758905
+
+**Anthropic's Claude** says more than 25,000 nonprofits now use Claude, mostly small local teams, and is expanding Claude for Nonprofits with a plugin built with around 30 of them: skills for fundraising, marketing, and hiring grounded in each team's context and AI policy.
+
+Anthropic 的 Claude 表示已有超过 25,000 家非营利组织在用 Claude，多数是小型本地团队；并与约 30 家一起扩展 Claude for Nonprofits 插件，加入基于各团队上下文与 AI 政策的筹款、营销与招聘 skills。
+
+https://x.com/claudeai/status/2114780227465338985
+
+**SPC GP Aditya Agarwal** argues the biggest risk to American AI is scaring ourselves into slowing down: fear is a policy choice, and so is building, citing a conversation with Sriram Krishnan at SPC.
+
+SPC GP Aditya Agarwal 认为美国 AI 最大的风险是把自己吓到减速：恐惧是一种政策选择，建设也是，并提到上周在 SPC 与 Sriram Krishnan 的交流。
+
+https://x.com/adityaag/status/2114793226154418314
+
+**FirstMark VC Matt Turck** posted an Anthropic S-1 highlights video made ONE SHOT with one prompt and no editing using Synthesia Syren.
+
+FirstMark VC Matt Turck 发布了一支 Anthropic S-1 highlights 视频，用 Synthesia Syren 一句话 prompt、零剪辑一次生成。
+
+https://x.com/mattturck/status/2114829981884817513
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
