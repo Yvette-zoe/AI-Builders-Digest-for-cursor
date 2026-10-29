@@ -1,0 +1,13 @@
+AI Builders Digest — 2026-10-29
+
+Feeds:
+- feed-x.json generatedAt 2026-10-28T06:32:16.853Z: 29 tweets across 13 builders
+- feed-podcasts.json generatedAt 2026-10-28T06:32:21.072Z: podcasts[] empty
+- errors: transcript failure for How Anthropic ships the #1 LLM safely (not in podcasts[])
+
+Podcasts: omitted (empty podcasts[])
+Email: Resend id 01a1852d-07d4-7807-bf2b-07cc98402530 to 569617786@qq.com
+Subject: AI Builders Digest — 2026-10-29
+
+Included: Levie, Thariq, Masad, Tan, Yang, Turck, Nikunj, Shipper, Rauch.
+Skipped: Swyx fluff, Sottiaux teases, Yang ARR snark, Masad jokes, Rauch links, Zara meta, Shipper QT, Agarwal promo.
