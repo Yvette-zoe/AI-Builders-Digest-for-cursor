@@ -1,0 +1,87 @@
+# AI Builders Digest — 2026-11-04
+
+## X / TWITTER
+
+**OpenAI Codex & ChatGPT engineer Thibault Sottiaux** says your Dot will pick the best model for the task and draw on different models for different parts of the work. Separately he cheers an OpenAI Dev Git reveal with props to Ted Neward and team: "We know some Git-fu."
+
+OpenAI Codex & ChatGPT 工程师 Thibault Sottiaux 表示，你的 Dot 会按任务自动挑选最合适的模型，并在工作的不同环节调用不同模型。另外他为 OpenAI Dev 的 Git 能力亮相打气，并向 Ted Neward 与团队致谢："We know some Git-fu."
+
+https://x.com/thsottiaux/status/2117283355427495983
+https://x.com/thsottiaux/status/2117412956950638872
+
+**Creator / interviewer Peter Yang** argues the best model for writing and editing is held back by its harness. Side-by-side on a post he was editing, ChatGPT's copy suggestions were almost entirely bad while GeminiApp's were actually great, but Antigravity's browser use did not work for him, so he had to paste Gemini edits back into ChatGPT. He is posting in the hope Antigravity improves much faster.
+
+Creator / interviewer Peter Yang 认为最强写作与编辑模型被 harness 拖住了。他拿一篇正在改的帖子并排测：ChatGPT 的文案建议几乎全是坏的，GeminiApp 的建议却真的好；但 Antigravity 的 browser use 对他不可用，只好把 Gemini 的修改再贴回 ChatGPT。他发推是希望 Antigravity 能快很多地变好。
+
+https://x.com/petergyang/status/2117333424403042330
+
+**OpenAI Codex product lead Nan Yu** (formerly head of product at Linear) says that except for rare cases, group chat is a terrible multiplayer AI experience: "Literally guaranteed slop."
+
+OpenAI Codex 产品负责人 Nan Yu（前 Linear head of product）认为，除了极少数情况，群聊是糟糕的多人 AI 体验："Literally guaranteed slop."
+
+https://x.com/thenanyu/status/2117432599559716940
+
+**Former Claude Code engineer Thariq** says one week in, you do not need unlimited tokens to do great work: the $200 plans are amazing, and "this is the most expensive intelligence will ever be."
+
+前 Claude Code 工程师 Thariq 表示用了一周后的判断：你不需要无限 token 也能做出高质量工作，$200 档订阅已经很强，而且「这会是智能有史以来最贵的时候」。
+
+https://x.com/trq212/status/2117305792923889731
+
+**Replit CEO Amjad Masad** amplifies the rule that AI agents should operate in dedicated, organization-controlled environments with limited access to only the resources each task requires.
+
+Replit CEO Amjad Masad 转发并强调：AI agents 应运行在组织可控的专用环境里，且只获得每项任务所需的有限资源访问权限。
+
+https://x.com/amasad/status/2117499074496872882
+
+**Vercel CEO Guillermo Rauch** says stateless sandboxes are the wrong benchmark: agents are only useful if they carry their workspace with them (identity, skills, repos, memories). He credits the Vercel Sandbox team for hitting latency and throughput SLOs while prioritizing reliability and security, shipping clusters in 19 global regions, adding features weekly, and absorbing double-digit weekly customer-demand growth. Separately he is "so bullish on WebMCP."
+
+Vercel CEO Guillermo Rauch 认为无状态 sandbox 是错误的基准：agent 只有随身带着工作区（identity、skills、repos、memories）才真正有用。他称赞 Vercel Sandbox 团队在优先保障可靠性与安全的同时打到 latency 与 throughput SLO，已在 19 个全球区域部署集群、每周上新功能，并扛住两位数百分比的周需求增长。另外他对 WebMCP「so bullish」。
+
+https://x.com/rauchg/status/2117338179535810957
+https://x.com/rauchg/status/2117419661654720671
+
+**Y Combinator President & CEO Garry Tan** says Capy Captains raised his issue-fixing throughput about 5X overnight, with coordination across captains and subthreads as the unlock. He also flags an interesting new use of smaller models: direct manipulation of weights.
+
+Y Combinator President & CEO Garry Tan 说 Capy Captains 一夜之间把他修 issue 的吞吐大约提升了 5 倍，跨 captains 与 subthreads 的协同是关键解锁。他还指出小模型的一个有趣新用法：直接操控权重（direct manipulation of weights）。
+
+https://x.com/garrytan/status/2117410016730964358
+https://x.com/garrytan/status/2117384926052135106
+
+**Latent Space / smol.ai host Swyx** reacts to weight-space programming with a literary framing: "with weight-space programming, we are now at paragraph 2 of exhalation."
+
+Latent Space / smol.ai host Swyx 用文学比喻回应 weight-space programming：「有了 weight-space programming，我们现在走到了 exhalation 的第二段。」
+
+https://x.com/swyx/status/2117492548780589510
+
+**Every CEO Dan Shipper** credits Argon's quality and says Antigravity still feels stuck in 2025 without the newer feature surface. For the why, he points readers to Every's vibe check of Gemini 4 Argon: https://every.to/vibe-check/vc-gemini-4-argon-puts-google-back-on-the-frontier
+
+Every CEO Dan Shipper 一边夸 Argon 足够好，一边说 Antigravity 仍卡在 2025、缺少那批更疯的新特性与复杂度。至于原因，他让人去读 Every 对 Gemini 4 Argon 的 vibe check：https://every.to/vibe-check/vc-gemini-4-argon-puts-google-back-on-the-frontier
+
+https://x.com/danshipper/status/2117363007340609556
+https://x.com/danshipper/status/2117428596688171450
+
+**FPV Ventures partner Nikunj Kothari** shares an n=17 (Grok bot assisted) observation: the pipeline from a startup or CEO vaguely posting revenue numbers to a fundraise kickoff they "were totally not going to do till early next year" is about 11 days.
+
+FPV Ventures partner Nikunj Kothari 分享了一个 n=17（有 Grok bot 帮忙）的观察：从 startup 或 CEO 含糊晒收入数字，到启动他们「本来完全不打算在明年年初之前做」的融资，中间大约只要 11 天。
+
+https://x.com/nikunj/status/2117362283223687621
+
+## PODCASTS
+
+### Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora (Latent Space)
+
+**The Takeaway:** Legora's hard problem is shipping legal agents for $400M M&A work when customer and client data is so confidential the team cannot look at traces, so product quality has to come from harness, citation systems, approximated evals, and orchestration, not from reading production usage.
+
+**The Takeaway：** Legora 的硬问题是：在客户与其客户的数据高度保密、团队几乎看不到任何 traces 的前提下，仍要把能扛住数亿美元 M&A 交易的法律 agent 做出来；产品质量只能靠 harness、citation 系统、近似 eval，以及工作流编排，而不是靠看真实生产用法。
+
+On Latent Space, Legora CTO Jacob Lauridsen (Danish; son of Laurits; the feed title spells the surname Lauritzen) describes a Stockholm underdog that began as "ChatGPT with Swedish laws and search tool" in YC 2024 and is now a ChatGPT/CoWork-class agent for lawyers plus workflow surfaces: Tabular Review for bulk due-diligence extraction (a name he notes Claude for Legal also uses), Lists ("Linear for us"), Intake, Portal, and Word/Outlook add-ins. He says a citation bug once sat around 70% and the next frontier model release jumped it to about 99% with almost no product work: "It's just like we did nothing and, like, great." That makes the durable job keeping data private, taggable, and sortable, and inventing the five-year shape of legal work once models keep getting cheaper.
+
+在 Latent Space 上，Legora CTO Jacob Lauridsen（丹麦名，Laurits 之子；feed 标题姓氏写作 Lauritzen）讲述一家从 Stockholm 地下室起家的 underdog：YC 2024 起步时只是「带瑞典法律与搜索工具的 ChatGPT」，如今是面向律师的 ChatGPT/CoWork 级 agent，外加工作流界面：用于尽调批量抽取的 Tabular Review（他笑称 Claude for Legal 也在用这个名字）、Lists（「对我们来说像 Linear」）、Intake、Portal，以及 Word/Outlook 插件。他说有个 citation 问题一度只有大约 70%，下一版前沿模型发布后几乎没改产品就到了约 99%："It's just like we did nothing and, like, great." 因此更持久的工作是把数据保持私密、可标记、可排序，并想清楚模型持续变便宜之后，法律工作未来五年长什么样。
+
+The title constraint is literal: firm data is often the client's, so "we can't look at any traces," and an evals team has to approximate what users are doing. He pushes back on "paralegals gone / junior lawyers gone," arguing good juniors become more valuable as leverage rises, while partnership incentives still reward rainmaking over codifying firm IP into durable systems. Product direction leans toward a command center where lawyers review five things agents already did. He once fantasized staying at twenty engineers forever ("three hundred Spartans"); they are about a hundred now and "feel like we're way too small," because competition and customer demand for surface area keep expanding, even as he toys with how much of the product can just be the agent.
+
+标题里的限制是字面成立的：律所数据常常属于客户，所以「我们几乎看不到任何 traces」，evals 团队只能去近似猜测用户在干什么。他反驳「paralegal 没了 / 初级律师没了」的说法，认为杠杆变高后优秀初级反而更值钱；而合伙制激励仍奖励拉客户，而不是把律所 know-how 沉淀成可复用资产。产品方向更像一个 command center：律师登录后主要审阅 agents 已经做好的五件事。他曾幻想永远只用二十个工程师（「三百斯巴达」）；现在大约一百人，却「觉得还是太小」，因为竞争与客户对功能面的需求不断膨胀，尽管他仍在琢磨产品究竟有多少可以「只剩 agent」。
+
+https://www.youtube.com/@LatentSpacePod
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
